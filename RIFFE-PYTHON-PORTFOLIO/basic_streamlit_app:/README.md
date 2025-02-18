@@ -1,7 +1,7 @@
 # 🐾 Welcome to Pet Finder! 🐶🐱
 
 ## 🚀 About This App
-Pet Finder is your go-to tool for finding the perfect furry (or not-so-furry) friend! 🐾✨ Whether you're looking for a small, cuddly companion or a big, adventurous buddy, this app helps you filter and explore different pets with ease. 💖
+Pet Finder is your go-to tool for finding the perfect furry friend! 🐾✨ Whether you're looking for a small, cuddly companion or a big, adventurous buddy, this app helps you filter and explore different pets with ease. 💖
 
 ## 🎯 Features
 
@@ -35,8 +35,7 @@ The app supports real-world data! Just ensure you have `pets.csv` in the same fo
 Make sure you have the following installed:
 
 🐍 Python 3+  
-📦 Streamlit (`pip install streamlit`)  
-📊 Pandas (`pip install pandas`)  
+📦 Streamlit (`pip install streamlit`)   
 
 ---
 
