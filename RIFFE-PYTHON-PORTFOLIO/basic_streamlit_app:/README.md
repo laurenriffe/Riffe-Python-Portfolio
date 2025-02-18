@@ -1,14 +1,14 @@
-# 🐾 Welcome to Pet Finder! 🐶🐱
+# 🐾 Welcome to Project Pet Finder! 🐶🐱
 
 ## 🚀 About This App
-Pet Finder is your go-to tool for finding the perfect furry friend! 🐾✨ Whether you're looking for a small, cuddly companion or a big, adventurous buddy, this app helps you filter and explore different pets with ease. 💖
+Pet Finder is a tool for finding your ideal pet! 🐾✨💖
 
 ## 🎯 Features
 
 ✅ **Interactive Pet Table** – Browse through a list of adorable pets with their size and color details! 🐕🐈  
-✅ **Smart Filtering** – Instantly find pets by size using an easy-to-use dropdown menu! 🔎  
+✅ **Filtering Feature** – Instantly find pets by size using an easy-to-use dropdown menu! 🔎  
 ✅ **CSV File Import** – Load real-world pet datasets dynamically! 📂  
-✅ **Sleek & Fun UI** – Enjoy a clean, engaging interface built with Streamlit! 🎨  
+✅ **Easy To Use** – Enjoy a clean, engaging interface built with Streamlit! 🎨  
 
 ---
 
