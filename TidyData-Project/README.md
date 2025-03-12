@@ -55,7 +55,5 @@ Make sure you have the following installed:
 Enjoy exploring Olympic trends like never before! 🥇🎉  
 
 ---
+💖🏅📊🎈  
 
-Made with 💖 and a passion for clean data! 🏅📊🎈  
-
-Let me know if you want any tweaks! 🚀
