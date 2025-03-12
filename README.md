@@ -1,8 +1,10 @@
 # Riffe-Python-Portfolio
 
 This repository will encompass all my completed coding projects. Organized by folders and a short description for each project, I will showcase data analysis skills and Python proficiency.
-
 ---
+## How This Portfolio is Structured  
+This portfolio showcases my data analysis and Python proficiency through multiple projects. The **Pet Finder Project** demonstrates my ability to build interactive web applications using Streamlit, while the **Tidy Data Project** highlights my skills in data cleaning, structuring, and visualization. Each project contributes to a well-rounded coding portfolio that reflects my growing expertise in Python programming and data analysis.
+
 
 # Pet Finder Project  
 
@@ -91,6 +93,5 @@ pip install pandas matplotlib seaborn
 
 ---
 
-## How This Portfolio is Structured  
-This portfolio showcases my data analysis and Python proficiency through multiple projects. The **Pet Finder Project** demonstrates my ability to build interactive web applications using Streamlit, while the **Tidy Data Project** highlights my skills in data cleaning, structuring, and visualization. Each project contributes to a well-rounded coding portfolio that reflects my growing expertise in Python programming and data analysis.
+
 
