@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Load dataset with error handling
-file_path = "olympics_08_medalists (1).csv"
+file_path = "olympics_08_medalists.csv"
 try:
     df = pd.read_csv(file_path)
     print("Dataset loaded successfully.")
