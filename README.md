@@ -35,7 +35,7 @@ For more details on Streamlit, check out:
 ## Project Overview  
 The **Tidy Data Project** focuses on cleaning and visualizing data from the 2008 Olympics medalists dataset. The goal is to ensure the dataset adheres to tidy data principles by structuring it properly—each variable has its own column, each observation is in a separate row, and each data type is consistent. The project also includes visualizations to highlight key insights from the cleaned data.  
 
-[View the Tidy Data Project Repository](<repository_url>)  
+[View the Tidy Data Project Repository](<https://github.com/laurenriffe/Riffe-Python-Portfolio/tree/main/TidyData-Project>)  
 
 ## Instructions  
 ### Prerequisites  
