@@ -9,6 +9,9 @@ This repository will encompass all my completed coding projects. Organized by fo
 ## Project Overview  
 The **Pet Finder Project** is a Streamlit-based web app designed to help users find their perfect pet by filtering available pets based on size. The application utilizes a dataset containing various pet attributes, making it easier to explore and compare different options.  
 
+[View the Pet Finder Project Repository](<https://github.com/laurenriffe/Riffe-Python-Portfolio/tree/main/basic_streamlit_app>)  
+
+
 ## Instructions  
 To run the project, follow these steps:  
 1. Ensure you have Python installed on your system.  
