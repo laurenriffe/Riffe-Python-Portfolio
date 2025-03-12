@@ -82,10 +82,12 @@ pip install pandas matplotlib seaborn
 
 ## Visual Examples  
 ### Medal Distribution by Sport  
-![Medal Distribution by Sport](visuals/medals_by_sport.png)  
+<img width="1108" alt="Distribution by Sport" src="https://github.com/user-attachments/assets/9fc86f55-120b-475d-be73-131cd0a59076" />
+
 
 ### Medal Distribution by Gender  
-![Medal Distribution by Gender](visuals/medals_by_gender.png)  
+<img width="725" alt="Medal Distribution by Gender" src="https://github.com/user-attachments/assets/52c67414-3fcc-472f-b271-02e836458c05" />
+
 
 ---
 
