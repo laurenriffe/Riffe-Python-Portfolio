@@ -46,7 +46,7 @@ python TidyData-Project.py
 <img width="1108" alt="Distribution by Sport" src="https://github.com/user-attachments/assets/9fc86f55-120b-475d-be73-131cd0a59076" />
 🚺🚹 Medal Distribution by Gender
 <img width="725" alt="Medal Distribution by Gender" src="https://github.com/user-attachments/assets/52c67414-3fcc-472f-b271-02e836458c05" />
-Now it looks more fun and engaging! Let me know if you want any other tweaks. 😊
+😊
 
 ---
 
