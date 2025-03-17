@@ -1,6 +1,6 @@
 # 🏅 Welcome to the Tidy Data Olympics Project! 🏆  
 
-## 🚀 About This Project  
+## 🚀 Project Overview 
 The **Tidy Data Olympics Project** is a data cleaning and visualization tool designed to transform messy sports data into structured, insightful visualizations. 🏋️‍♂️📊  
 
 ## 🎯 Features  
@@ -12,7 +12,7 @@ The **Tidy Data Olympics Project** is a data cleaning and visualization tool des
 
 ---
 
-## 🛠️ How to Use  
+## 🛠️ Instructions  
 
 ### 1️⃣ **Run the Script** 🚀  
 Make sure you have Python installed, then run the script:  
@@ -38,7 +38,7 @@ The cleaned dataset is saved as `cleaned_olympics_medalists.csv` for future anal
 ### Medal Distribution by Gender  
 <img width="725" alt="Medal Distribution by Gender" src="https://github.com/user-attachments/assets/52c67414-3fcc-472f-b271-02e836458c05" />
 
-## 📌 Requirements  
+## 📌 Dataset Description 
 Make sure you have the following installed:  
 
 🐍 Python 3+  
