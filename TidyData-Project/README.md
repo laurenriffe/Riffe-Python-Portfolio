@@ -1,14 +1,12 @@
 # 🏅 Welcome to the Tidy Data Olympics Project! 🏆  
 
-📌 Project Overview
+# 📌 Project Overview
 
 The Tidy Data Project 📊 focuses on cleaning and visualizing data from the 2008 Olympics medalists dataset 🏆. The goal is to ensure the dataset adheres to tidy data principles by structuring it properly—each variable has its own column, each observation is in a separate row, and each data type is consistent. The project also includes visualizations to highlight key insights from the cleaned data.
 
 🔗 View the Tidy Data Project Repository
 
-🛠️ Instructions
-
-⚙️ Prerequisites
+# 🛠️ Instructions
 Ensure you have the following dependencies installed:
 
 🐍 Python 3.x
@@ -30,19 +28,20 @@ cd TidyData-Project
 python TidyData-Project.py
 📂 Dataset Description
 
-📌 Source: The dataset contains information on medalists from the 2008 Olympics.
+# 📌 Dataset Description: The dataset contains information on medalists from the 2008 Olympics.
+
 ⚡ Pre-processing Steps:
 🔄 Data reshaping using the melt() function.
 🗑️ Handling missing values by dropping them.
 🏃 Extracting relevant attributes (e.g., gender and sport) from column names.
 ✨ Cleaning column values for readability.
 💾 Saving the cleaned dataset for further use.
-📚 References
 
+# 📚 References
 📜 Tidy Data Principles by Hadley Wickham
 📝 Pandas Cheat Sheet
-🎨 Visual Examples
 
+# 🎨 Visual Examples
 🏆 Medal Distribution by Sport
 <img width="1108" alt="Distribution by Sport" src="https://github.com/user-attachments/assets/9fc86f55-120b-475d-be73-131cd0a59076" />
 🚺🚹 Medal Distribution by Gender
