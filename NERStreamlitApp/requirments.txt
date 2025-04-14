@@ -1,5 +1,5 @@
-streamlit
-pandas
+streamlit==1.42.0
+pandas==2.2.3
 spacy==3.8.4
 
 # Install spaCy language model AFTER spaCy itself is installed
