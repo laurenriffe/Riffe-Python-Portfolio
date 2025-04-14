@@ -9,7 +9,7 @@ from io import StringIO
 import pandas as pd
 
 # 🌸 Set up Streamlit page config
-st.set_page_config(page_title="🌸 Custom NER App for Smart Girls", layout="wide", page_icon="🧠")
+st.set_page_config(page_title="🌸 Custom NER App", layout="wide", page_icon="🧠")
 
 # 🌷 Background style with pink theme
 st.markdown("""
