@@ -91,6 +91,38 @@ pip install pandas matplotlib seaborn
 <img width="725" alt="Medal Distribution by Gender" src="https://github.com/user-attachments/assets/52c67414-3fcc-472f-b271-02e836458c05" />
 
 
+# Named Entity Recognition (NER) App 💖
+
+## Project Overview
+
+The NER Streamlit App is a fun and interactive web application that allows users to perform Named Entity Recognition using both pre-trained and custom models. Built with spaCy and Streamlit, this pink-themed app lets users paste or upload text, define their own entity rules (like FOOD, CELEB, EVENT, and EMOTION), and instantly see their content analyzed and colorfully annotated.
+
+## Instructions
+
+To run the project, follow these steps:
+
+Make sure Python 3.x is installed.
+Install the dependencies:
+pip install streamlit spacy pandas
+python -m spacy download en_core_web_sm
+Run the app:
+cd NERStreamlitApp  
+streamlit run app.py
+Features
+
+💬 Paste or upload your own text
+✨ Pink-themed, emoji-enhanced UI
+🧠 Uses spaCy’s built-in NER plus custom entity rules
+🎨 Highlighted entities in text and detailed entity table view
+🧪 Sample text examples and helpful usage explanations
+🎉 Detects entities like Person, Organization, FOOD, EMOTION, and more!
+
+## References
+spaCy NER Documentation
+EntityRuler API
+Streamlit Docs
+
+
 ---
 
 
