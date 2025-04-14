@@ -1,7 +1,5 @@
 import streamlit as st
 import spacy
-import en_core_web_sm
-nlp = en_core_web_sm.load()
 from spacy.pipeline import EntityRuler
 from spacy import displacy
 import json
