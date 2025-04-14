@@ -50,16 +50,27 @@ Welcome to your **interactive, fabulous NER app**! ✨
 
 # 🌼 Load spaCy model with caching for performance
 @st.cache_resource
-
 def load_model():
     return spacy.load("en_core_web_sm")
 
 nlp = load_model()
 
-# 💖 Sidebar pattern editor
+# 💖 Sidebar pattern editor with input fields
 st.sidebar.header("✨ Define Custom Entity Patterns")
-st.sidebar.markdown("Add your spaCy-compatible patterns in JSON format!")
 
+# Custom entity label input box
+custom_label = st.sidebar.text_input("💬 Enter the Entity Label (e.g., FOOD, CELEB, etc.):", "")
+
+# Custom pattern input box (one pattern at a time)
+custom_pattern = st.sidebar.text_input("💬 Enter the Pattern (e.g., 'pumpkin spice latte'):", "")
+
+# Add pattern button
+add_custom_pattern_button = st.sidebar.button("➕ Add Custom Pattern")
+
+# Reset custom patterns button
+clear_patterns = st.sidebar.button("🗑️ Clear Custom Patterns")
+
+# Example JSON preview (to guide users)
 example_pattern = [
     {"label": "FOOD", "pattern": [{"LOWER": "pumpkin"}, {"LOWER": "spice"}, {"LOWER": "latte"}]},
     {"label": "CELEB", "pattern": [{"LOWER": "taylor"}, {"LOWER": "swift"}]},
@@ -67,28 +78,35 @@ example_pattern = [
     {"label": "EMOTION", "pattern": [{"LOWER": "best"}, {"LOWER": "day"}, {"LOWER": "ever"}]}
 ]
 
-# Provide editable text area with JSON examples
-pattern_input = st.sidebar.text_area(
-    "💡 Pattern JSON Input:",
-    value=json.dumps(example_pattern, indent=2),
-    height=250
-)
+st.sidebar.markdown("**Example Pattern JSON (for reference):**")
+st.sidebar.json(example_pattern)
 
-# Button to apply patterns
-add_patterns = st.sidebar.button("➕ Add Custom Patterns")
-
-# 🌟 Apply patterns using spaCy's EntityRuler
-if add_patterns:
+# 🌟 Apply custom patterns using EntityRuler if button is clicked
+if add_custom_pattern_button and custom_label and custom_pattern:
     try:
-        patterns = json.loads(pattern_input)
+        # Convert the input pattern to spaCy format
+        pattern = [{"LOWER": token} for token in custom_pattern.split()]
+        custom_pattern_dict = {"label": custom_label, "pattern": pattern}
+
+        # Add custom pattern to EntityRuler
         ruler = EntityRuler(nlp, overwrite_ents=True)
-        ruler.add_patterns(patterns)
+        ruler.add_patterns([custom_pattern_dict])
+
+        # Remove old ruler if it exists and add new one
         if "custom_ruler" in nlp.pipe_names:
             nlp.remove_pipe("custom_ruler")
         nlp.add_pipe(ruler, before="ner", name="custom_ruler")
-        st.sidebar.success("🎉 Custom patterns added successfully!")
+
+        st.sidebar.success(f"🎉 Custom pattern '{custom_label}' added successfully!")
+
     except Exception as e:
-        st.sidebar.error(f"❌ Pattern error: {e}")
+        st.sidebar.error(f"❌ Error: {e}")
+
+# Clear custom patterns
+if clear_patterns:
+    if "custom_ruler" in nlp.pipe_names:
+        nlp.remove_pipe("custom_ruler")
+    st.sidebar.success("🎉 Custom patterns cleared!")
 
 # 📄 Text input section
 st.subheader("📜 Input Your Text")
@@ -154,28 +172,3 @@ st.markdown("""
   {"label": "EVENT", "pattern": [{"LOWER": "swift"}, {"LOWER": "concert"}]},
   {"label": "EMOTION", "pattern": [{"LOWER": "best"}, {"LOWER": "day"}, {"LOWER": "ever"}]}
 ]
-```
-
-**Try pasting this text:**
-> I grabbed a pumpkin spice latte before going to the Taylor Swift concert. Best day ever!
-
----
-### 🌟 What Each Column Means:
-- **Entity Text:** The exact phrase spaCy found
-- **Label:** The type/category you assigned it (e.g., ORG, FOOD, CELEB)
-- **Start/End Pos:** Where in the text the entity appears
-- **Context:** Helpful nearby words so you see the entity in action
-
----
-### 🛠️ Advanced Tips
-- Patterns support token attributes like `LOWER`, `TEXT`, `IS_TITLE`
-- Multi-word phrases must be in a list of dicts
-- Try adding emojis, brand names, slang, or niche labels 💅
-
-### 💖 Credits
-This app was designed with flair by a fabulous developer who likes pink, clarity, and NER ✨
-""")
-
-# 🌈 Footer
-st.markdown("---")
-st.caption("Made with 💖 using spaCy + Streamlit | Portfolio Update #3 | Spring 2025")
