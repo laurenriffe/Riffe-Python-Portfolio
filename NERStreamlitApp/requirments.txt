@@ -1,6 +1,6 @@
 streamlit
-spacy==3.8.0
 pandas
+spacy==3.8.4
 
-# Required spaCy model for Streamlit Cloud deployment
+# Install spaCy language model AFTER spaCy itself is installed
 https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.8.0/en_core_web_sm-3.8.0-py3-none-any.whl
