@@ -3,18 +3,17 @@ import spacy
 from spacy.pipeline import EntityRuler
 from spacy import displacy
 import pandas as pd
-from io import StringIO
 import json
+from io import StringIO
 
-# 🌸 Set up Streamlit page config
+# Set up Streamlit config
 st.set_page_config(page_title="🌸 Custom NER App", layout="wide", page_icon="🧠")
 
-# 🌷 Background style with pink theme
+# Add cute theme CSS
 st.markdown("""
 <style>
 body {
     background-color: #ffe6f0;
-    font-family: 'Comic Sans MS', cursive, sans-serif;
 }
 h1, h2, h3, .stMarkdown { color: #880e4f; font-family: 'Arial Rounded MT Bold', sans-serif; }
 .stButton > button {
@@ -35,15 +34,14 @@ h1, h2, h3, .stMarkdown { color: #880e4f; font-family: 'Arial Rounded MT Bold', 
 </style>
 """, unsafe_allow_html=True)
 
-# 🌟 Title and description
+# Title and instructions
 st.title("🧠💖 Named Entity Recognition (NER) With Sparkle")
 st.markdown("""
-Welcome to your **interactive, fabulous NER app**! ✨ 
-
-- Upload or paste your own text 📄  
-- Define beautiful custom patterns using spaCy's EntityRuler 💡  
-- See your entities pop in a lovely visualization 💅  
-- Export your work to impress your professor 📊  
+Welcome to your **interactive, fabulous NER app**! ✨  
+Upload or paste your text 📄  
+Define beautiful custom patterns 💡  
+See your entities pop 💅  
+Export results to impress your professor 📊  
 """)
 
 # Load spaCy model
@@ -53,50 +51,45 @@ def load_model():
 
 nlp = load_model()
 
-# Store custom patterns in session
+# Session state for storing patterns
 if "custom_patterns" not in st.session_state:
     st.session_state.custom_patterns = []
 
-# 💖 Sidebar pattern editor
+# Sidebar for custom entity input
 st.sidebar.header("✨ Define Custom Entity Patterns")
-label = st.sidebar.text_input("💬 Enter the Entity Label (e.g., FOOD, CELEB, etc.):")
-phrase = st.sidebar.text_input("💬 Enter the Pattern (e.g., pumpkin spice latte):")
 
-if st.sidebar.button("➕ Add Pattern"):
-    if label and phrase:
-        try:
-            pattern = {
-                "label": label.strip().upper(),
-                "pattern": [{"LOWER": word} for word in phrase.strip().split()]
-            }
-            st.session_state.custom_patterns.append(pattern)
-            st.sidebar.success("✅ Pattern added!")
-        except Exception as e:
-            st.sidebar.error(f"❌ Error: {e}")
-    else:
-        st.sidebar.warning("⚠️ Please fill in both the label and pattern!")
+with st.sidebar.form("pattern_form"):
+    label = st.text_input("💬 Entity Label (e.g., FOOD, CELEB):")
+    pattern_text = st.text_input("💬 Phrase to Match (e.g., pumpkin spice latte):")
+    submitted = st.form_submit_button("➕ Add Pattern")
 
-# Show current patterns
-if st.session_state.custom_patterns:
-    st.sidebar.markdown("### 📋 Current Patterns")
+    if submitted and label and pattern_text:
+        token_list = [{"LOWER": token.lower()} for token in pattern_text.strip().split()]
+        new_pattern = {"label": label.upper(), "pattern": token_list}
+        st.session_state.custom_patterns.append(new_pattern)
+        st.sidebar.success(f"Added pattern for label '{label.upper()}'")
+
+# Optional: View current patterns
+if st.sidebar.checkbox("📋 Show Current Patterns"):
     st.sidebar.json(st.session_state.custom_patterns)
 
-# Build EntityRuler with current patterns
+# Add patterns to spaCy pipeline
 ruler = EntityRuler(nlp, overwrite_ents=True)
 ruler.add_patterns(st.session_state.custom_patterns)
 
-# Remove old pipe and add updated one
+# Remove existing custom ruler if any
 if "custom_ruler" in nlp.pipe_names:
     nlp.remove_pipe("custom_ruler")
 
+# Add safely depending on whether 'ner' exists
 if "ner" in nlp.pipe_names:
     nlp.add_pipe(ruler, before="ner", name="custom_ruler")
 else:
     nlp.add_pipe(ruler, name="custom_ruler")
 
-# 📄 Text input section
+# Input section
 st.subheader("📜 Input Your Text")
-col1, col2 = st.columns([1, 1])
+col1, col2 = st.columns(2)
 
 with col1:
     uploaded_file = st.file_uploader("Upload a text file (e.g., .txt)", type=["txt"])
@@ -104,26 +97,21 @@ with col1:
 with col2:
     manual_text = st.text_area("Or paste your text here:", height=200)
 
-# Get final text
 text = ""
 if uploaded_file is not None:
     text = StringIO(uploaded_file.getvalue().decode("utf-8")).read()
 elif manual_text:
     text = manual_text
 
-# 🔍 Process NER
+# Run NER
 if st.button("✨ Run Entity Recognition") and text:
     doc = nlp(text)
 
     st.subheader("🎯 Recognized Entities (NER Results)")
-
-    # 🔮 Display entities with displacy
     html = displacy.render(doc, style="ent")
     st.markdown(f"<div style='background-color:#ffe6f0; padding:15px; border-radius:12px'>{html}</div>", unsafe_allow_html=True)
 
-    # 📊 Show entity table
     if doc.ents:
-        st.subheader("📊 Entity Table with Details")
         data = [{
             "Entity Text": ent.text,
             "Label": ent.label_,
@@ -134,12 +122,29 @@ if st.button("✨ Run Entity Recognition") and text:
 
         df = pd.DataFrame(data)
         st.dataframe(df, use_container_width=True)
-
-        # Allow download
         st.download_button("⬇️ Download as CSV", df.to_csv(index=False), "entities.csv", "text/csv")
     else:
         st.warning("Hmm... no entities were found! Try different patterns or text ✨")
+
 else:
     st.info("Upload or paste your text, then click 'Run Entity Recognition'.")
 
+# Instructions
+st.markdown("""
+---
+### 💬 How to Use This App
+**Example:**
+- Label: `FOOD`  
+- Pattern: `pumpkin spice latte`
 
+**Try this text:**
+> I grabbed a pumpkin spice latte before going to the Taylor Swift concert. Best day ever!
+
+### 🌟 Tips
+- Labels are case-insensitive
+- Phrases are split by spaces into token patterns
+- Use emojis, slang, brand names – go wild 💅
+""")
+
+st.markdown("---")
+st.caption("Made with 💖 using spaCy + Streamlit | Portfolio Project")
