@@ -6,10 +6,10 @@ import pandas as pd
 import json
 from io import StringIO
 
-# Set up Streamlit config
+# Streamlit page config
 st.set_page_config(page_title="🌸 Custom NER App", layout="wide", page_icon="🧠")
 
-# Add cute theme CSS
+# Cute custom styles
 st.markdown("""
 <style>
 body {
@@ -34,7 +34,7 @@ h1, h2, h3, .stMarkdown { color: #880e4f; font-family: 'Arial Rounded MT Bold', 
 </style>
 """, unsafe_allow_html=True)
 
-# Title and instructions
+# Title and description
 st.title("🧠💖 Named Entity Recognition (NER) With Sparkle")
 st.markdown("""
 Welcome to your **interactive, fabulous NER app**! ✨  
@@ -51,62 +51,59 @@ def load_model():
 
 nlp = load_model()
 
-# Session state for storing patterns
+# Sidebar pattern form
+st.sidebar.header("✨ Define Custom Entity Patterns")
+
 if "custom_patterns" not in st.session_state:
     st.session_state.custom_patterns = []
 
-# Sidebar for custom entity input
-st.sidebar.header("✨ Define Custom Entity Patterns")
+# Form to add a pattern
+with st.sidebar.form("add_pattern_form"):
+    label = st.text_input("💬 Entity Label (e.g. FOOD, CELEB)")
+    phrase = st.text_input("💬 Phrase to Match (e.g. pumpkin spice latte)")
+    add_pattern = st.form_submit_button("➕ Add Pattern")
 
-with st.sidebar.form("pattern_form"):
-    label = st.text_input("💬 Entity Label (e.g., FOOD, CELEB):")
-    pattern_text = st.text_input("💬 Phrase to Match (e.g., pumpkin spice latte):")
-    submitted = st.form_submit_button("➕ Add Pattern")
+    if add_pattern and label and phrase:
+        tokens = [{"LOWER": word.lower()} for word in phrase.split()]
+        new_entry = {"label": label.upper(), "pattern": tokens}
+        st.session_state.custom_patterns.append(new_entry)
+        st.sidebar.success(f"Added pattern: {phrase} → {label.upper()}")
 
-    if submitted and label and pattern_text:
-        token_list = [{"LOWER": token.lower()} for token in pattern_text.strip().split()]
-        new_pattern = {"label": label.upper(), "pattern": token_list}
-        st.session_state.custom_patterns.append(new_pattern)
-        st.sidebar.success(f"Added pattern for label '{label.upper()}'")
-
-# Optional: View current patterns
+# Show current patterns
 if st.sidebar.checkbox("📋 Show Current Patterns"):
     st.sidebar.json(st.session_state.custom_patterns)
 
-# Add patterns to spaCy pipeline
-ruler = EntityRuler(nlp, overwrite_ents=True)
-ruler.add_patterns(st.session_state.custom_patterns)
-
-# Remove existing custom ruler if any
+# Rebuild NLP pipeline with new patterns
 if "custom_ruler" in nlp.pipe_names:
     nlp.remove_pipe("custom_ruler")
 
-# Add safely depending on whether 'ner' exists
+ruler = EntityRuler(nlp, overwrite_ents=True)
+ruler.add_patterns(st.session_state.custom_patterns)
+
+# Try to insert before 'ner' if it exists
 if "ner" in nlp.pipe_names:
     nlp.add_pipe(ruler, before="ner", name="custom_ruler")
 else:
     nlp.add_pipe(ruler, name="custom_ruler")
 
-# Input section
+# Input text
 st.subheader("📜 Input Your Text")
 col1, col2 = st.columns(2)
 
 with col1:
     uploaded_file = st.file_uploader("Upload a text file (e.g., .txt)", type=["txt"])
-
 with col2:
     manual_text = st.text_area("Or paste your text here:", height=200)
 
 text = ""
-if uploaded_file is not None:
+if uploaded_file:
     text = StringIO(uploaded_file.getvalue().decode("utf-8")).read()
 elif manual_text:
     text = manual_text
 
-# Run NER
+# Run Entity Recognition
 if st.button("✨ Run Entity Recognition") and text:
     doc = nlp(text)
-
     st.subheader("🎯 Recognized Entities (NER Results)")
     html = displacy.render(doc, style="ent")
     st.markdown(f"<div style='background-color:#ffe6f0; padding:15px; border-radius:12px'>{html}</div>", unsafe_allow_html=True)
@@ -119,32 +116,32 @@ if st.button("✨ Run Entity Recognition") and text:
             "End Pos": ent.end_char,
             "Context": text[max(ent.start_char - 20, 0):ent.end_char + 20]
         } for ent in doc.ents]
-
         df = pd.DataFrame(data)
         st.dataframe(df, use_container_width=True)
         st.download_button("⬇️ Download as CSV", df.to_csv(index=False), "entities.csv", "text/csv")
     else:
-        st.warning("Hmm... no entities were found! Try different patterns or text ✨")
+        st.warning("No entities found. Try adding more patterns or editing your text!")
 
 else:
     st.info("Upload or paste your text, then click 'Run Entity Recognition'.")
 
-# Instructions
+# Examples and credits
 st.markdown("""
 ---
 ### 💬 How to Use This App
 **Example:**
-- Label: `FOOD`  
-- Pattern: `pumpkin spice latte`
+- Label: `FOOD`
+- Phrase: `pumpkin spice latte`
 
-**Try this text:**
+**Try this text:**  
 > I grabbed a pumpkin spice latte before going to the Taylor Swift concert. Best day ever!
 
-### 🌟 Tips
-- Labels are case-insensitive
-- Phrases are split by spaces into token patterns
-- Use emojis, slang, brand names – go wild 💅
-""")
+---
+### 🛠️ Tips
+- You can add multiple custom patterns with different labels.
+- All phrases are tokenized and matched case-insensitively.
+- Emojis, slang, and hashtags are all valid tokens 💅
 
-st.markdown("---")
-st.caption("Made with 💖 using spaCy + Streamlit | Portfolio Project")
+---
+#### 💖 Built with spaCy + Streamlit
+""")
