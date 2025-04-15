@@ -160,15 +160,3 @@ if st.button("✨ Run Entity Recognition") and text:
 else:
     st.info("Upload or paste your text, then click 'Run Entity Recognition'.")
 
-# 💬 Examples and tips for students
-st.markdown("""
----
-### 💬 How to Use This App
-**Example pattern JSON:**
-```json
-[
-  {"label": "FOOD", "pattern": [{"LOWER": "pumpkin"}, {"LOWER": "spice"}, {"LOWER": "latte"}]},
-  {"label": "CELEB", "pattern": [{"LOWER": "taylor"}, {"LOWER": "swift"}]},
-  {"label": "EVENT", "pattern": [{"LOWER": "swift"}, {"LOWER": "concert"}]},
-  {"label": "EMOTION", "pattern": [{"LOWER": "best"}, {"LOWER": "day"}, {"LOWER": "ever"}]}
-]
