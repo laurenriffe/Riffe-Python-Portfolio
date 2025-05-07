@@ -1,0 +1,351 @@
+Primary Emotion,Bible Verse,Verse Text,Explanation
+overwhelmed,Matthew 11:28,"Come to me, all you who are weary and burdened, and I will give you rest.","When life feels too heavy, Jesus reminds us to lean on Him. His rest restores our weary hearts."
+restless,Philippians 4:6-7,Do not be anxious about anything...,"God offers peace that surpasses understanding, even in your restless moments."
+hopeless,Romans 15:13,May the God of hope fill you with all joy and peace...,"Even when you're feeling hopeless, God fills you with hope and peace."
+afraid,Isaiah 41:10,"So do not fear, for I am with you...","God is always with you, even when you're afraid."
+mourning,Matthew 5:4,"Blessed are those who mourn, for they will be comforted.",God brings comfort to those who are grieving.
+frustrated,James 1:19,"Everyone should be quick to listen, slow to speak and slow to become angry.",God calls us to patience and peace in the face of frustration.
+ashamed,Psalm 34:5,Those who look to him are radiant; their faces are never covered with shame.,God removes our shame and replaces it with dignity.
+lonely,Deuteronomy 31:6,The Lord your God goes with you; he will never leave you nor forsake you.,"Even in loneliness, God promises His presence."
+confused,Proverbs 3:5-6,Trust in the Lord with all your heart... and he will make your paths straight.,"When confused, trust in God for clarity and direction."
+guilty,1 John 1:9,"If we confess our sins, he is faithful and just and will forgive us...",Confession brings forgiveness and peace.
+weak,2 Corinthians 12:9,"My grace is sufficient for you, for my power is made perfect in weakness.",God’s strength shines brightest in our weakness.
+jealous,James 3:16,For where you have envy... there you find disorder and every evil practice.,"Envy clouds peace, but God leads us back to contentment."
+bitter,Hebrews 12:15,See to it that no bitter root grows up to cause trouble...,Let go of bitterness and live in grace.
+disappointed,Romans 5:5,"Hope does not disappoint us, because God has poured out his love...",God’s love restores hope even in disappointment.
+ignored,Isaiah 49:15,I will not forget you!,You are always seen and remembered by God.
+anxious,1 Peter 5:7,Cast all your anxiety on him because he cares for you.,Lay your anxious heart in His care.
+exhausted,Isaiah 40:29,He gives strength to the weary...,God restores energy to the tired soul.
+lost,Luke 15:24,For this son of mine was lost and is found.,God always welcomes the lost back home.
+betrayed,Psalm 55:22,Cast your cares on the Lord and he will sustain you...,God heals the sting of betrayal.
+insecure,Psalm 139:14,I praise you because I am fearfully and wonderfully made...,You are wonderfully made by the Creator.
+unworthy,Romans 8:1,"Therefore, there is now no condemnation for those who are in Christ Jesus.",Your worth is not up for debate—God already settled it.
+discouraged,Galatians 6:9,Let us not become weary in doing good...,"Your efforts matter, even when you can’t see results."
+regretful,Joel 2:25,I will repay you for the years the locusts have eaten...,God redeems your past.
+panicked,Psalm 94:19,"When anxiety was great within me, your consolation brought me joy.",Let God’s comfort replace your panic.
+trapped,Psalm 18:19,He brought me out into a spacious place...,God frees those who feel stuck.
+resentful,Ephesians 4:31-32,"Get rid of all bitterness, rage and anger... be kind and compassionate...",Release resentment and embrace mercy.
+joyful,Psalm 118:24,This is the day that the Lord has made; let us rejoice and be glad in it.,Celebrate the gift of each day with joy.
+thankful,1 Thessalonians 5:18,Give thanks in all circumstances...,Gratitude opens your heart to God's goodness.
+hopeful,Jeremiah 29:11,For I know the plans I have for you...,God’s future for you is full of hope.
+peaceful,John 14:27,Peace I leave with you; my peace I give you...,God’s peace anchors your spirit.
+loved,Romans 8:38-39,Nothing can separate us from the love of God...,You are deeply and eternally loved.
+blessed,Ephesians 1:3,Praise be to the God... who has blessed us in the heavenly realms...,You are already richly blessed.
+grateful,Colossians 3:15,Let the peace of Christ rule in your hearts... and be thankful.,A grateful heart brings peace.
+excited,Psalm 37:4,"Delight yourself in the Lord, and he will give you the desires of your heart.",God delights in your joy and desires.
+free,Galatians 5:1,It is for freedom that Christ has set us free...,You are no longer bound—live in freedom.
+secure,Proverbs 18:10,The name of the Lord is a strong tower; the righteous run to it and are safe.,God is your unshakable shelter.
+cheerful,Proverbs 17:22,A cheerful heart is good medicine...,A cheerful spirit brings healing.
+radiant,Psalm 34:5,Those who look to him are radiant...,Trust in God lights up your life.
+confident,Hebrews 10:35,So do not throw away your confidence...,Your faith builds holy confidence.
+renewed,Isaiah 40:31,But those who hope in the Lord will renew their strength...,God refreshes your soul.
+curious,James 1:5,"If any of you lacks wisdom, ask God...",Ask and He will answer with wisdom.
+fulfilled,Psalm 37:4,Delight yourself in the Lord...,God fulfills the deepest desires of your heart.
+creative,Exodus 35:31,"He has filled him with the Spirit of God, with wisdom, with understanding...",Creativity is a gift from the Creator.
+uplifted,2 Corinthians 4:16,"Though outwardly we are wasting away, inwardly we are being renewed day by day.","You are being renewed, lifted daily in Christ."
+balanced,Ecclesiastes 3:1,"There is a time for everything, and a season for every activity under the heavens.",God gives order and timing to all things.
+content,Philippians 4:11,I have learned to be content whatever the circumstances.,True peace comes from contentment in Christ.
+cheerful_10,Proverbs 17:22,A cheerful heart is good medicine...,A cheerful spirit brings healing.
+radiant_11,Psalm 34:5,Those who look to him are radiant...,Trust in God lights up your life.
+confident_12,Hebrews 10:35,So do not throw away your confidence...,Your faith builds holy confidence.
+renewed_13,Isaiah 40:31,But those who hope in the Lord will renew their strength...,God refreshes your soul.
+curious_14,James 1:5,"If any of you lacks wisdom, ask God...",Ask and He will answer with wisdom.
+fulfilled_15,Psalm 37:4,Delight yourself in the Lord...,God fulfills the deepest desires of your heart.
+creative_16,Exodus 35:31,"He has filled him with the Spirit of God, with wisdom, with understanding...",Creativity is a gift from the Creator.
+uplifted_17,2 Corinthians 4:16,"Though outwardly we are wasting away, inwardly we are being renewed day by day.","You are being renewed, lifted daily in Christ."
+balanced_18,Ecclesiastes 3:1,"There is a time for everything, and a season for every activity under the heavens.",God gives order and timing to all things.
+content_19,Philippians 4:11,I have learned to be content whatever the circumstances.,True peace comes from contentment in Christ.
+cheerful_20,Proverbs 17:22,A cheerful heart is good medicine...,A cheerful spirit brings healing.
+radiant_21,Psalm 34:5,Those who look to him are radiant...,Trust in God lights up your life.
+confident_22,Hebrews 10:35,So do not throw away your confidence...,Your faith builds holy confidence.
+renewed_23,Isaiah 40:31,But those who hope in the Lord will renew their strength...,God refreshes your soul.
+curious_24,James 1:5,"If any of you lacks wisdom, ask God...",Ask and He will answer with wisdom.
+fulfilled_25,Psalm 37:4,Delight yourself in the Lord...,God fulfills the deepest desires of your heart.
+creative_26,Exodus 35:31,"He has filled him with the Spirit of God, with wisdom, with understanding...",Creativity is a gift from the Creator.
+uplifted_27,2 Corinthians 4:16,"Though outwardly we are wasting away, inwardly we are being renewed day by day.","You are being renewed, lifted daily in Christ."
+balanced_28,Ecclesiastes 3:1,"There is a time for everything, and a season for every activity under the heavens.",God gives order and timing to all things.
+content_29,Philippians 4:11,I have learned to be content whatever the circumstances.,True peace comes from contentment in Christ.
+cheerful_30,Proverbs 17:22,A cheerful heart is good medicine...,A cheerful spirit brings healing.
+radiant_31,Psalm 34:5,Those who look to him are radiant...,Trust in God lights up your life.
+confident_32,Hebrews 10:35,So do not throw away your confidence...,Your faith builds holy confidence.
+renewed_33,Isaiah 40:31,But those who hope in the Lord will renew their strength...,God refreshes your soul.
+curious_34,James 1:5,"If any of you lacks wisdom, ask God...",Ask and He will answer with wisdom.
+fulfilled_35,Psalm 37:4,Delight yourself in the Lord...,God fulfills the deepest desires of your heart.
+creative_36,Exodus 35:31,"He has filled him with the Spirit of God, with wisdom, with understanding...",Creativity is a gift from the Creator.
+uplifted_37,2 Corinthians 4:16,"Though outwardly we are wasting away, inwardly we are being renewed day by day.","You are being renewed, lifted daily in Christ."
+balanced_38,Ecclesiastes 3:1,"There is a time for everything, and a season for every activity under the heavens.",God gives order and timing to all things.
+content_39,Philippians 4:11,I have learned to be content whatever the circumstances.,True peace comes from contentment in Christ.
+cheerful_40,Proverbs 17:22,A cheerful heart is good medicine...,A cheerful spirit brings healing.
+radiant_41,Psalm 34:5,Those who look to him are radiant...,Trust in God lights up your life.
+confident_42,Hebrews 10:35,So do not throw away your confidence...,Your faith builds holy confidence.
+renewed_43,Isaiah 40:31,But those who hope in the Lord will renew their strength...,God refreshes your soul.
+curious_44,James 1:5,"If any of you lacks wisdom, ask God...",Ask and He will answer with wisdom.
+fulfilled_45,Psalm 37:4,Delight yourself in the Lord...,God fulfills the deepest desires of your heart.
+creative_46,Exodus 35:31,"He has filled him with the Spirit of God, with wisdom, with understanding...",Creativity is a gift from the Creator.
+uplifted_47,2 Corinthians 4:16,"Though outwardly we are wasting away, inwardly we are being renewed day by day.","You are being renewed, lifted daily in Christ."
+balanced_48,Ecclesiastes 3:1,"There is a time for everything, and a season for every activity under the heavens.",God gives order and timing to all things.
+content_49,Philippians 4:11,I have learned to be content whatever the circumstances.,True peace comes from contentment in Christ.
+cheerful_50,Proverbs 17:22,A cheerful heart is good medicine...,A cheerful spirit brings healing.
+radiant_51,Psalm 34:5,Those who look to him are radiant...,Trust in God lights up your life.
+confident_52,Hebrews 10:35,So do not throw away your confidence...,Your faith builds holy confidence.
+renewed_53,Isaiah 40:31,But those who hope in the Lord will renew their strength...,God refreshes your soul.
+curious_54,James 1:5,"If any of you lacks wisdom, ask God...",Ask and He will answer with wisdom.
+fulfilled_55,Psalm 37:4,Delight yourself in the Lord...,God fulfills the deepest desires of your heart.
+creative_56,Exodus 35:31,"He has filled him with the Spirit of God, with wisdom, with understanding...",Creativity is a gift from the Creator.
+uplifted_57,2 Corinthians 4:16,"Though outwardly we are wasting away, inwardly we are being renewed day by day.","You are being renewed, lifted daily in Christ."
+balanced_58,Ecclesiastes 3:1,"There is a time for everything, and a season for every activity under the heavens.",God gives order and timing to all things.
+content_59,Philippians 4:11,I have learned to be content whatever the circumstances.,True peace comes from contentment in Christ.
+cheerful_60,Proverbs 17:22,A cheerful heart is good medicine...,A cheerful spirit brings healing.
+radiant_61,Psalm 34:5,Those who look to him are radiant...,Trust in God lights up your life.
+confident_62,Hebrews 10:35,So do not throw away your confidence...,Your faith builds holy confidence.
+renewed_63,Isaiah 40:31,But those who hope in the Lord will renew their strength...,God refreshes your soul.
+curious_64,James 1:5,"If any of you lacks wisdom, ask God...",Ask and He will answer with wisdom.
+fulfilled_65,Psalm 37:4,Delight yourself in the Lord...,God fulfills the deepest desires of your heart.
+creative_66,Exodus 35:31,"He has filled him with the Spirit of God, with wisdom, with understanding...",Creativity is a gift from the Creator.
+uplifted_67,2 Corinthians 4:16,"Though outwardly we are wasting away, inwardly we are being renewed day by day.","You are being renewed, lifted daily in Christ."
+balanced_68,Ecclesiastes 3:1,"There is a time for everything, and a season for every activity under the heavens.",God gives order and timing to all things.
+content_69,Philippians 4:11,I have learned to be content whatever the circumstances.,True peace comes from contentment in Christ.
+cheerful_70,Proverbs 17:22,A cheerful heart is good medicine...,A cheerful spirit brings healing.
+radiant_71,Psalm 34:5,Those who look to him are radiant...,Trust in God lights up your life.
+confident_72,Hebrews 10:35,So do not throw away your confidence...,Your faith builds holy confidence.
+renewed_73,Isaiah 40:31,But those who hope in the Lord will renew their strength...,God refreshes your soul.
+curious_74,James 1:5,"If any of you lacks wisdom, ask God...",Ask and He will answer with wisdom.
+fulfilled_75,Psalm 37:4,Delight yourself in the Lord...,God fulfills the deepest desires of your heart.
+creative_76,Exodus 35:31,"He has filled him with the Spirit of God, with wisdom, with understanding...",Creativity is a gift from the Creator.
+uplifted_77,2 Corinthians 4:16,"Though outwardly we are wasting away, inwardly we are being renewed day by day.","You are being renewed, lifted daily in Christ."
+balanced_78,Ecclesiastes 3:1,"There is a time for everything, and a season for every activity under the heavens.",God gives order and timing to all things.
+content_79,Philippians 4:11,I have learned to be content whatever the circumstances.,True peace comes from contentment in Christ.
+cheerful_80,Proverbs 17:22,A cheerful heart is good medicine...,A cheerful spirit brings healing.
+radiant_81,Psalm 34:5,Those who look to him are radiant...,Trust in God lights up your life.
+confident_82,Hebrews 10:35,So do not throw away your confidence...,Your faith builds holy confidence.
+renewed_83,Isaiah 40:31,But those who hope in the Lord will renew their strength...,God refreshes your soul.
+curious_84,James 1:5,"If any of you lacks wisdom, ask God...",Ask and He will answer with wisdom.
+fulfilled_85,Psalm 37:4,Delight yourself in the Lord...,God fulfills the deepest desires of your heart.
+creative_86,Exodus 35:31,"He has filled him with the Spirit of God, with wisdom, with understanding...",Creativity is a gift from the Creator.
+uplifted_87,2 Corinthians 4:16,"Though outwardly we are wasting away, inwardly we are being renewed day by day.","You are being renewed, lifted daily in Christ."
+balanced_88,Ecclesiastes 3:1,"There is a time for everything, and a season for every activity under the heavens.",God gives order and timing to all things.
+content_89,Philippians 4:11,I have learned to be content whatever the circumstances.,True peace comes from contentment in Christ.
+cheerful_90,Proverbs 17:22,A cheerful heart is good medicine...,A cheerful spirit brings healing.
+radiant_91,Psalm 34:5,Those who look to him are radiant...,Trust in God lights up your life.
+confident_92,Hebrews 10:35,So do not throw away your confidence...,Your faith builds holy confidence.
+renewed_93,Isaiah 40:31,But those who hope in the Lord will renew their strength...,God refreshes your soul.
+curious_94,James 1:5,"If any of you lacks wisdom, ask God...",Ask and He will answer with wisdom.
+fulfilled_95,Psalm 37:4,Delight yourself in the Lord...,God fulfills the deepest desires of your heart.
+creative_96,Exodus 35:31,"He has filled him with the Spirit of God, with wisdom, with understanding...",Creativity is a gift from the Creator.
+uplifted_97,2 Corinthians 4:16,"Though outwardly we are wasting away, inwardly we are being renewed day by day.","You are being renewed, lifted daily in Christ."
+balanced_98,Ecclesiastes 3:1,"There is a time for everything, and a season for every activity under the heavens.",God gives order and timing to all things.
+content_99,Philippians 4:11,I have learned to be content whatever the circumstances.,True peace comes from contentment in Christ.
+cheerful_100,Proverbs 17:22,A cheerful heart is good medicine...,A cheerful spirit brings healing.
+radiant_101,Psalm 34:5,Those who look to him are radiant...,Trust in God lights up your life.
+confident_102,Hebrews 10:35,So do not throw away your confidence...,Your faith builds holy confidence.
+renewed_103,Isaiah 40:31,But those who hope in the Lord will renew their strength...,God refreshes your soul.
+curious_104,James 1:5,"If any of you lacks wisdom, ask God...",Ask and He will answer with wisdom.
+fulfilled_105,Psalm 37:4,Delight yourself in the Lord...,God fulfills the deepest desires of your heart.
+creative_106,Exodus 35:31,"He has filled him with the Spirit of God, with wisdom, with understanding...",Creativity is a gift from the Creator.
+uplifted_107,2 Corinthians 4:16,"Though outwardly we are wasting away, inwardly we are being renewed day by day.","You are being renewed, lifted daily in Christ."
+balanced_108,Ecclesiastes 3:1,"There is a time for everything, and a season for every activity under the heavens.",God gives order and timing to all things.
+content_109,Philippians 4:11,I have learned to be content whatever the circumstances.,True peace comes from contentment in Christ.
+cheerful_110,Proverbs 17:22,A cheerful heart is good medicine...,A cheerful spirit brings healing.
+radiant_111,Psalm 34:5,Those who look to him are radiant...,Trust in God lights up your life.
+confident_112,Hebrews 10:35,So do not throw away your confidence...,Your faith builds holy confidence.
+renewed_113,Isaiah 40:31,But those who hope in the Lord will renew their strength...,God refreshes your soul.
+Accepting,Psalm 34:18,The Lord is close to the brokenhearted and saves those who are crushed in spirit.,God sees you in your accepting moments and draws near to comfort.
+Open,Psalm 34:18,The Lord is close to the brokenhearted and saves those who are crushed in spirit.,God sees you in your open moments and draws near to comfort.
+Calm,John 14:27,Peace I leave with you; my peace I give you.,Jesus offers us a peace that calms every storm.
+Centered,Psalm 34:18,The Lord is close to the brokenhearted and saves those who are crushed in spirit.,God sees you in your centered moments and draws near to comfort.
+Patient,Psalm 34:18,The Lord is close to the brokenhearted and saves those who are crushed in spirit.,God sees you in your patient moments and draws near to comfort.
+Present,Psalm 34:18,The Lord is close to the brokenhearted and saves those who are crushed in spirit.,God sees you in your present moments and draws near to comfort.
+Relaxed,Psalm 34:18,The Lord is close to the brokenhearted and saves those who are crushed in spirit.,God sees you in your relaxed moments and draws near to comfort.
+Serene,Psalm 34:18,The Lord is close to the brokenhearted and saves those who are crushed in spirit.,God sees you in your serene moments and draws near to comfort.
+Trusting,Psalm 34:18,The Lord is close to the brokenhearted and saves those who are crushed in spirit.,God sees you in your trusting moments and draws near to comfort.
+Amazed,Psalm 34:18,The Lord is close to the brokenhearted and saves those who are crushed in spirit.,God sees you in your amazed moments and draws near to comfort.
+Awe,Psalm 34:18,The Lord is close to the brokenhearted and saves those who are crushed in spirit.,God sees you in your awe moments and draws near to comfort.
+Bliss,Psalm 34:18,The Lord is close to the brokenhearted and saves those who are crushed in spirit.,God sees you in your bliss moments and draws near to comfort.
+Delighted,Psalm 34:18,The Lord is close to the brokenhearted and saves those who are crushed in spirit.,God sees you in your delighted moments and draws near to comfort.
+Eager,Psalm 34:18,The Lord is close to the brokenhearted and saves those who are crushed in spirit.,God sees you in your eager moments and draws near to comfort.
+Ecstatic,Psalm 34:18,The Lord is close to the brokenhearted and saves those who are crushed in spirit.,God sees you in your ecstatic moments and draws near to comfort.
+Enchanted,Psalm 34:18,The Lord is close to the brokenhearted and saves those who are crushed in spirit.,God sees you in your enchanted moments and draws near to comfort.
+Energized,Psalm 34:18,The Lord is close to the brokenhearted and saves those who are crushed in spirit.,God sees you in your energized moments and draws near to comfort.
+Engaged,Psalm 34:18,The Lord is close to the brokenhearted and saves those who are crushed in spirit.,God sees you in your engaged moments and draws near to comfort.
+Enthusiastic,Psalm 34:18,The Lord is close to the brokenhearted and saves those who are crushed in spirit.,God sees you in your enthusiastic moments and draws near to comfort.
+Happy,Psalm 34:18,The Lord is close to the brokenhearted and saves those who are crushed in spirit.,God sees you in your happy moments and draws near to comfort.
+Inspired,Psalm 34:18,The Lord is close to the brokenhearted and saves those who are crushed in spirit.,God sees you in your inspired moments and draws near to comfort.
+Invigorated,Psalm 34:18,The Lord is close to the brokenhearted and saves those who are crushed in spirit.,God sees you in your invigorated moments and draws near to comfort.
+Lively,Psalm 34:18,The Lord is close to the brokenhearted and saves those who are crushed in spirit.,God sees you in your lively moments and draws near to comfort.
+Passionate,Psalm 34:18,The Lord is close to the brokenhearted and saves those who are crushed in spirit.,God sees you in your passionate moments and draws near to comfort.
+Playful,Psalm 34:18,The Lord is close to the brokenhearted and saves those who are crushed in spirit.,God sees you in your playful moments and draws near to comfort.
+Refreshed,Psalm 34:18,The Lord is close to the brokenhearted and saves those who are crushed in spirit.,God sees you in your refreshed moments and draws near to comfort.
+Rejuvenated,Psalm 34:18,The Lord is close to the brokenhearted and saves those who are crushed in spirit.,God sees you in your rejuvenated moments and draws near to comfort.
+Satisfied,Psalm 34:18,The Lord is close to the brokenhearted and saves those who are crushed in spirit.,God sees you in your satisfied moments and draws near to comfort.
+Thrilled,Psalm 34:18,The Lord is close to the brokenhearted and saves those who are crushed in spirit.,God sees you in your thrilled moments and draws near to comfort.
+Vibrant,Psalm 34:18,The Lord is close to the brokenhearted and saves those who are crushed in spirit.,God sees you in your vibrant moments and draws near to comfort.
+Agitated,Psalm 34:18,The Lord is close to the brokenhearted and saves those who are crushed in spirit.,God sees you in your agitated moments and draws near to comfort.
+Aggravated,Psalm 34:18,The Lord is close to the brokenhearted and saves those who are crushed in spirit.,God sees you in your aggravated moments and draws near to comfort.
+Contempt,Psalm 34:18,The Lord is close to the brokenhearted and saves those who are crushed in spirit.,God sees you in your contempt moments and draws near to comfort.
+Cynical,Psalm 34:18,The Lord is close to the brokenhearted and saves those who are crushed in spirit.,God sees you in your cynical moments and draws near to comfort.
+Disdain,Psalm 34:18,The Lord is close to the brokenhearted and saves those who are crushed in spirit.,God sees you in your disdain moments and draws near to comfort.
+Disgruntled,Psalm 34:18,The Lord is close to the brokenhearted and saves those who are crushed in spirit.,God sees you in your disgruntled moments and draws near to comfort.
+Disturbed,Psalm 34:18,The Lord is close to the brokenhearted and saves those who are crushed in spirit.,God sees you in your disturbed moments and draws near to comfort.
+Edgy,Psalm 34:18,The Lord is close to the brokenhearted and saves those who are crushed in spirit.,God sees you in your edgy moments and draws near to comfort.
+Exasperated,Psalm 34:18,The Lord is close to the brokenhearted and saves those who are crushed in spirit.,God sees you in your exasperated moments and draws near to comfort.
+Furious,Psalm 34:18,The Lord is close to the brokenhearted and saves those who are crushed in spirit.,God sees you in your furious moments and draws near to comfort.
+Grouchy,Psalm 34:18,The Lord is close to the brokenhearted and saves those who are crushed in spirit.,God sees you in your grouchy moments and draws near to comfort.
+Hostile,Psalm 34:18,The Lord is close to the brokenhearted and saves those who are crushed in spirit.,God sees you in your hostile moments and draws near to comfort.
+Impatient,Psalm 34:18,The Lord is close to the brokenhearted and saves those who are crushed in spirit.,God sees you in your impatient moments and draws near to comfort.
+Irritated,Psalm 34:18,The Lord is close to the brokenhearted and saves those who are crushed in spirit.,God sees you in your irritated moments and draws near to comfort.
+Irate,Psalm 34:18,The Lord is close to the brokenhearted and saves those who are crushed in spirit.,God sees you in your irate moments and draws near to comfort.
+Moody,Psalm 34:18,The Lord is close to the brokenhearted and saves those who are crushed in spirit.,God sees you in your moody moments and draws near to comfort.
+On edge,Psalm 34:18,The Lord is close to the brokenhearted and saves those who are crushed in spirit.,God sees you in your on edge moments and draws near to comfort.
+Outraged,Psalm 34:18,The Lord is close to the brokenhearted and saves those who are crushed in spirit.,God sees you in your outraged moments and draws near to comfort.
+Pissed,Psalm 34:18,The Lord is close to the brokenhearted and saves those who are crushed in spirit.,God sees you in your pissed moments and draws near to comfort.
+Upset,Psalm 34:18,The Lord is close to the brokenhearted and saves those who are crushed in spirit.,God sees you in your upset moments and draws near to comfort.
+Vindictive,Psalm 34:18,The Lord is close to the brokenhearted and saves those who are crushed in spirit.,God sees you in your vindictive moments and draws near to comfort.
+Adventurous,Psalm 34:18,The Lord is close to the brokenhearted and saves those who are crushed in spirit.,God sees you in your adventurous moments and draws near to comfort.
+Brave,Psalm 34:18,The Lord is close to the brokenhearted and saves those who are crushed in spirit.,God sees you in your brave moments and draws near to comfort.
+Capable,Psalm 34:18,The Lord is close to the brokenhearted and saves those who are crushed in spirit.,God sees you in your capable moments and draws near to comfort.
+Daring,Psalm 34:18,The Lord is close to the brokenhearted and saves those who are crushed in spirit.,God sees you in your daring moments and draws near to comfort.
+Determined,Psalm 34:18,The Lord is close to the brokenhearted and saves those who are crushed in spirit.,God sees you in your determined moments and draws near to comfort.
+Grounded,Psalm 34:18,The Lord is close to the brokenhearted and saves those who are crushed in spirit.,God sees you in your grounded moments and draws near to comfort.
+Proud,Psalm 34:18,The Lord is close to the brokenhearted and saves those who are crushed in spirit.,God sees you in your proud moments and draws near to comfort.
+Strong,Psalm 34:18,The Lord is close to the brokenhearted and saves those who are crushed in spirit.,God sees you in your strong moments and draws near to comfort.
+Worthy,Psalm 34:18,The Lord is close to the brokenhearted and saves those who are crushed in spirit.,God sees you in your worthy moments and draws near to comfort.
+Valiant,Psalm 34:18,The Lord is close to the brokenhearted and saves those who are crushed in spirit.,God sees you in your valiant moments and draws near to comfort.
+Affectionate,Psalm 34:18,The Lord is close to the brokenhearted and saves those who are crushed in spirit.,God sees you in your affectionate moments and draws near to comfort.
+Caring,Psalm 34:18,The Lord is close to the brokenhearted and saves those who are crushed in spirit.,God sees you in your caring moments and draws near to comfort.
+Compassion,Psalm 34:18,The Lord is close to the brokenhearted and saves those who are crushed in spirit.,God sees you in your compassion moments and draws near to comfort.
+Empathy,Psalm 34:18,The Lord is close to the brokenhearted and saves those who are crushed in spirit.,God sees you in your empathy moments and draws near to comfort.
+Safe,Psalm 34:18,The Lord is close to the brokenhearted and saves those who are crushed in spirit.,God sees you in your safe moments and draws near to comfort.
+Warm,Psalm 34:18,The Lord is close to the brokenhearted and saves those who are crushed in spirit.,God sees you in your warm moments and draws near to comfort.
+Exploring,Psalm 34:18,The Lord is close to the brokenhearted and saves those who are crushed in spirit.,God sees you in your exploring moments and draws near to comfort.
+Fascinated,Psalm 34:18,The Lord is close to the brokenhearted and saves those who are crushed in spirit.,God sees you in your fascinated moments and draws near to comfort.
+Interested,Psalm 34:18,The Lord is close to the brokenhearted and saves those who are crushed in spirit.,God sees you in your interested moments and draws near to comfort.
+Intrigued,Psalm 34:18,The Lord is close to the brokenhearted and saves those who are crushed in spirit.,God sees you in your intrigued moments and draws near to comfort.
+Involved,Psalm 34:18,The Lord is close to the brokenhearted and saves those who are crushed in spirit.,God sees you in your involved moments and draws near to comfort.
+Stimulated,Psalm 34:18,The Lord is close to the brokenhearted and saves those who are crushed in spirit.,God sees you in your stimulated moments and draws near to comfort.
+Anguish,Psalm 34:18,The Lord is close to the brokenhearted and saves those who are crushed in spirit.,God sees you in your anguish moments and draws near to comfort.
+Depressed,Psalm 34:18,The Lord is close to the brokenhearted and saves those who are crushed in spirit.,God sees you in your depressed moments and draws near to comfort.
+Despondent,Psalm 34:18,The Lord is close to the brokenhearted and saves those who are crushed in spirit.,God sees you in your despondent moments and draws near to comfort.
+Forlorn,Psalm 34:18,The Lord is close to the brokenhearted and saves those who are crushed in spirit.,God sees you in your forlorn moments and draws near to comfort.
+Gloomy,Psalm 34:18,The Lord is close to the brokenhearted and saves those who are crushed in spirit.,God sees you in your gloomy moments and draws near to comfort.
+Grief,Psalm 34:18,The Lord is close to the brokenhearted and saves those who are crushed in spirit.,God sees you in your grief moments and draws near to comfort.
+Heartbroken,Psalm 34:18,The Lord is close to the brokenhearted and saves those who are crushed in spirit.,God sees you in your heartbroken moments and draws near to comfort.
+Longing,Psalm 34:18,The Lord is close to the brokenhearted and saves those who are crushed in spirit.,God sees you in your longing moments and draws near to comfort.
+Melancholy,Psalm 34:18,The Lord is close to the brokenhearted and saves those who are crushed in spirit.,God sees you in your melancholy moments and draws near to comfort.
+Sorrow,Psalm 34:18,The Lord is close to the brokenhearted and saves those who are crushed in spirit.,God sees you in your sorrow moments and draws near to comfort.
+Teary,Psalm 34:18,The Lord is close to the brokenhearted and saves those who are crushed in spirit.,God sees you in your teary moments and draws near to comfort.
+Unhappy,Psalm 34:18,The Lord is close to the brokenhearted and saves those who are crushed in spirit.,God sees you in your unhappy moments and draws near to comfort.
+Weary,Psalm 34:18,The Lord is close to the brokenhearted and saves those who are crushed in spirit.,God sees you in your weary moments and draws near to comfort.
+Yearning,Psalm 34:18,The Lord is close to the brokenhearted and saves those who are crushed in spirit.,God sees you in your yearning moments and draws near to comfort.
+Aloof,Psalm 34:18,The Lord is close to the brokenhearted and saves those who are crushed in spirit.,God sees you in your aloof moments and draws near to comfort.
+Bored,Psalm 34:18,The Lord is close to the brokenhearted and saves those who are crushed in spirit.,God sees you in your bored moments and draws near to comfort.
+Distant,Psalm 34:18,The Lord is close to the brokenhearted and saves those who are crushed in spirit.,God sees you in your distant moments and draws near to comfort.
+Empty,Psalm 34:18,The Lord is close to the brokenhearted and saves those who are crushed in spirit.,God sees you in your empty moments and draws near to comfort.
+Indifferent,Psalm 34:18,The Lord is close to the brokenhearted and saves those who are crushed in spirit.,God sees you in your indifferent moments and draws near to comfort.
+Isolated,Psalm 34:18,The Lord is close to the brokenhearted and saves those who are crushed in spirit.,God sees you in your isolated moments and draws near to comfort.
+Lethargic,Psalm 34:18,The Lord is close to the brokenhearted and saves those who are crushed in spirit.,God sees you in your lethargic moments and draws near to comfort.
+Listless,Psalm 34:18,The Lord is close to the brokenhearted and saves those who are crushed in spirit.,God sees you in your listless moments and draws near to comfort.
+Removed,Psalm 34:18,The Lord is close to the brokenhearted and saves those who are crushed in spirit.,God sees you in your removed moments and draws near to comfort.
+Resistant,Psalm 34:18,The Lord is close to the brokenhearted and saves those who are crushed in spirit.,God sees you in your resistant moments and draws near to comfort.
+Shut Down,Psalm 34:18,The Lord is close to the brokenhearted and saves those who are crushed in spirit.,God sees you in your shut down moments and draws near to comfort.
+Uneasy,Psalm 34:18,The Lord is close to the brokenhearted and saves those who are crushed in spirit.,God sees you in your uneasy moments and draws near to comfort.
+Withdrawn,Psalm 34:18,The Lord is close to the brokenhearted and saves those who are crushed in spirit.,God sees you in your withdrawn moments and draws near to comfort.
+Humiliated,Psalm 34:18,The Lord is close to the brokenhearted and saves those who are crushed in spirit.,God sees you in your humiliated moments and draws near to comfort.
+Inhibited,Psalm 34:18,The Lord is close to the brokenhearted and saves those who are crushed in spirit.,God sees you in your inhibited moments and draws near to comfort.
+Mortified,Psalm 34:18,The Lord is close to the brokenhearted and saves those who are crushed in spirit.,God sees you in your mortified moments and draws near to comfort.
+Self-conscious,Psalm 34:18,The Lord is close to the brokenhearted and saves those who are crushed in spirit.,God sees you in your self-conscious moments and draws near to comfort.
+Useless,Psalm 34:18,The Lord is close to the brokenhearted and saves those who are crushed in spirit.,God sees you in your useless moments and draws near to comfort.
+Worthless,Psalm 34:18,The Lord is close to the brokenhearted and saves those who are crushed in spirit.,God sees you in your worthless moments and draws near to comfort.
+Apprehensive,Psalm 34:18,The Lord is close to the brokenhearted and saves those who are crushed in spirit.,God sees you in your apprehensive moments and draws near to comfort.
+Frightened,Psalm 34:18,The Lord is close to the brokenhearted and saves those who are crushed in spirit.,God sees you in your frightened moments and draws near to comfort.
+Hesitant,Psalm 34:18,The Lord is close to the brokenhearted and saves those who are crushed in spirit.,God sees you in your hesitant moments and draws near to comfort.
+Nervous,Psalm 34:18,The Lord is close to the brokenhearted and saves those who are crushed in spirit.,God sees you in your nervous moments and draws near to comfort.
+Panic,Psalm 34:18,The Lord is close to the brokenhearted and saves those who are crushed in spirit.,God sees you in your panic moments and draws near to comfort.
+Paralyzed,Psalm 34:18,The Lord is close to the brokenhearted and saves those who are crushed in spirit.,God sees you in your paralyzed moments and draws near to comfort.
+Scared,Psalm 34:18,The Lord is close to the brokenhearted and saves those who are crushed in spirit.,God sees you in your scared moments and draws near to comfort.
+Terrified,Psalm 34:18,The Lord is close to the brokenhearted and saves those who are crushed in spirit.,God sees you in your terrified moments and draws near to comfort.
+Worried,Matthew 6:34,Do not worry about tomorrow...,Focus on the present with God's help.
+Helpless,Psalm 34:18,The Lord is close to the brokenhearted and saves those who are crushed in spirit.,God sees you in your helpless moments and draws near to comfort.
+Sensitive,Psalm 34:18,The Lord is close to the brokenhearted and saves those who are crushed in spirit.,God sees you in your sensitive moments and draws near to comfort.
+Appreciative,Psalm 34:18,The Lord is close to the brokenhearted and saves those who are crushed in spirit.,God sees you in your appreciative moments and draws near to comfort.
+Fortunate,Psalm 34:18,The Lord is close to the brokenhearted and saves those who are crushed in spirit.,God sees you in your fortunate moments and draws near to comfort.
+Grace,Psalm 34:18,The Lord is close to the brokenhearted and saves those who are crushed in spirit.,God sees you in your grace moments and draws near to comfort.
+Humbled,Psalm 34:18,The Lord is close to the brokenhearted and saves those who are crushed in spirit.,God sees you in your humbled moments and draws near to comfort.
+Lucky,Psalm 34:18,The Lord is close to the brokenhearted and saves those who are crushed in spirit.,God sees you in your lucky moments and draws near to comfort.
+Moved,Psalm 34:18,The Lord is close to the brokenhearted and saves those who are crushed in spirit.,God sees you in your moved moments and draws near to comfort.
+Touched,Psalm 34:18,The Lord is close to the brokenhearted and saves those who are crushed in spirit.,God sees you in your touched moments and draws near to comfort.
+Regret,Psalm 34:18,The Lord is close to the brokenhearted and saves those who are crushed in spirit.,God sees you in your regret moments and draws near to comfort.
+Remorseful,Psalm 34:18,The Lord is close to the brokenhearted and saves those who are crushed in spirit.,God sees you in your remorseful moments and draws near to comfort.
+Sorry,Psalm 34:18,The Lord is close to the brokenhearted and saves those who are crushed in spirit.,God sees you in your sorry moments and draws near to comfort.
+Encouraged,Psalm 34:18,The Lord is close to the brokenhearted and saves those who are crushed in spirit.,God sees you in your encouraged moments and draws near to comfort.
+Expectant,Psalm 34:18,The Lord is close to the brokenhearted and saves those who are crushed in spirit.,God sees you in your expectant moments and draws near to comfort.
+Optimistic,Psalm 34:18,The Lord is close to the brokenhearted and saves those who are crushed in spirit.,God sees you in your optimistic moments and draws near to comfort.
+Impotent,Psalm 34:18,The Lord is close to the brokenhearted and saves those who are crushed in spirit.,God sees you in your impotent moments and draws near to comfort.
+Incapable,Psalm 34:18,The Lord is close to the brokenhearted and saves those who are crushed in spirit.,God sees you in your incapable moments and draws near to comfort.
+Resigned,Psalm 34:18,The Lord is close to the brokenhearted and saves those who are crushed in spirit.,God sees you in your resigned moments and draws near to comfort.
+Victim,Psalm 34:18,The Lord is close to the brokenhearted and saves those who are crushed in spirit.,God sees you in your victim moments and draws near to comfort.
+Loving,Psalm 34:18,The Lord is close to the brokenhearted and saves those who are crushed in spirit.,God sees you in your loving moments and draws near to comfort.
+Reflective,Psalm 34:18,The Lord is close to the brokenhearted and saves those who are crushed in spirit.,God sees you in your reflective moments and draws near to comfort.
+Self-loving,Psalm 34:18,The Lord is close to the brokenhearted and saves those who are crushed in spirit.,God sees you in your self-loving moments and draws near to comfort.
+Vulnerable,Psalm 34:18,The Lord is close to the brokenhearted and saves those who are crushed in spirit.,God sees you in your vulnerable moments and draws near to comfort.
+Burned out,Psalm 34:18,The Lord is close to the brokenhearted and saves those who are crushed in spirit.,God sees you in your burned out moments and draws near to comfort.
+Cranky,Psalm 34:18,The Lord is close to the brokenhearted and saves those who are crushed in spirit.,God sees you in your cranky moments and draws near to comfort.
+Depleted,Psalm 34:18,The Lord is close to the brokenhearted and saves those who are crushed in spirit.,God sees you in your depleted moments and draws near to comfort.
+Frazzled,Psalm 34:18,The Lord is close to the brokenhearted and saves those who are crushed in spirit.,God sees you in your frazzled moments and draws near to comfort.
+Overwhelm,Psalm 34:18,The Lord is close to the brokenhearted and saves those who are crushed in spirit.,God sees you in your overwhelm moments and draws near to comfort.
+Rattled,Psalm 34:18,The Lord is close to the brokenhearted and saves those who are crushed in spirit.,God sees you in your rattled moments and draws near to comfort.
+Rejecting,Psalm 34:18,The Lord is close to the brokenhearted and saves those who are crushed in spirit.,God sees you in your rejecting moments and draws near to comfort.
+Shaken,Psalm 34:18,The Lord is close to the brokenhearted and saves those who are crushed in spirit.,God sees you in your shaken moments and draws near to comfort.
+Tight,Psalm 34:18,The Lord is close to the brokenhearted and saves those who are crushed in spirit.,God sees you in your tight moments and draws near to comfort.
+Worn out,Psalm 34:18,The Lord is close to the brokenhearted and saves those who are crushed in spirit.,God sees you in your worn out moments and draws near to comfort.
+Concerned,Psalm 34:18,The Lord is close to the brokenhearted and saves those who are crushed in spirit.,God sees you in your concerned moments and draws near to comfort.
+Dissatisfied,Psalm 34:18,The Lord is close to the brokenhearted and saves those who are crushed in spirit.,God sees you in your dissatisfied moments and draws near to comfort.
+Perplexed,Psalm 34:18,The Lord is close to the brokenhearted and saves those who are crushed in spirit.,God sees you in your perplexed moments and draws near to comfort.
+Questioning,Psalm 34:18,The Lord is close to the brokenhearted and saves those who are crushed in spirit.,God sees you in your questioning moments and draws near to comfort.
+Reluctant,Psalm 34:18,The Lord is close to the brokenhearted and saves those who are crushed in spirit.,God sees you in your reluctant moments and draws near to comfort.
+Shocked,Psalm 34:18,The Lord is close to the brokenhearted and saves those who are crushed in spirit.,God sees you in your shocked moments and draws near to comfort.
+Skeptical,Psalm 34:18,The Lord is close to the brokenhearted and saves those who are crushed in spirit.,God sees you in your skeptical moments and draws near to comfort.
+Suspicious,Psalm 34:18,The Lord is close to the brokenhearted and saves those who are crushed in spirit.,God sees you in your suspicious moments and draws near to comfort.
+Ungrounded,Psalm 34:18,The Lord is close to the brokenhearted and saves those who are crushed in spirit.,God sees you in your ungrounded moments and draws near to comfort.
+Unsure,Psalm 34:18,The Lord is close to the brokenhearted and saves those who are crushed in spirit.,God sees you in your unsure moments and draws near to comfort.
+angry,Ephesians 4:26,"""In your anger do not sin"": Do not let the sun go down while you are still angry.","This verse reminds us that while anger is natural, it must be handled with care and not allowed to fester into sin or bitterness."
+angry,James 1:19-20,"Everyone should be quick to listen, slow to speak and slow to become angry, because human anger does not produce the righteousness that God desires.",This verse teaches us the value of patience and listening to temper our anger and respond in a godly way.
+angry,Proverbs 15:1,"A gentle answer turns away wrath, but a harsh word stirs up anger.","When we're angry, God calls us to respond with gentleness rather than fueling conflict with harsh words."
+mad,Ephesians 4:26,"""In your anger do not sin"": Do not let the sun go down while you are still angry.","This verse reminds us that while anger is natural, it must be handled with care and not allowed to fester into sin or bitterness."
+mad,James 1:19-20,"Everyone should be quick to listen, slow to speak and slow to become angry, because human anger does not produce the righteousness that God desires.",This verse teaches us the value of patience and listening to temper our anger and respond in a godly way.
+mad,Proverbs 15:1,"A gentle answer turns away wrath, but a harsh word stirs up anger.","When we're angry, God calls us to respond with gentleness rather than fueling conflict with harsh words."
+furious,Ephesians 4:26,"""In your anger do not sin"": Do not let the sun go down while you are still angry.","This verse reminds us that while anger is natural, it must be handled with care and not allowed to fester into sin or bitterness."
+furious,James 1:19-20,"Everyone should be quick to listen, slow to speak and slow to become angry, because human anger does not produce the righteousness that God desires.",This verse teaches us the value of patience and listening to temper our anger and respond in a godly way.
+furious,Proverbs 15:1,"A gentle answer turns away wrath, but a harsh word stirs up anger.","When we're angry, God calls us to respond with gentleness rather than fueling conflict with harsh words."
+irritated,Ephesians 4:26,"""In your anger do not sin"": Do not let the sun go down while you are still angry.","This verse reminds us that while anger is natural, it must be handled with care and not allowed to fester into sin or bitterness."
+irritated,James 1:19-20,"Everyone should be quick to listen, slow to speak and slow to become angry, because human anger does not produce the righteousness that God desires.",This verse teaches us the value of patience and listening to temper our anger and respond in a godly way.
+irritated,Proverbs 15:1,"A gentle answer turns away wrath, but a harsh word stirs up anger.","When we're angry, God calls us to respond with gentleness rather than fueling conflict with harsh words."
+annoyed,Ephesians 4:26,"""In your anger do not sin"": Do not let the sun go down while you are still angry.","This verse reminds us that while anger is natural, it must be handled with care and not allowed to fester into sin or bitterness."
+annoyed,James 1:19-20,"Everyone should be quick to listen, slow to speak and slow to become angry, because human anger does not produce the righteousness that God desires.",This verse teaches us the value of patience and listening to temper our anger and respond in a godly way.
+annoyed,Proverbs 15:1,"A gentle answer turns away wrath, but a harsh word stirs up anger.","When we're angry, God calls us to respond with gentleness rather than fueling conflict with harsh words."
+frustrated,Ephesians 4:26,"""In your anger do not sin"": Do not let the sun go down while you are still angry.","This verse reminds us that while anger is natural, it must be handled with care and not allowed to fester into sin or bitterness."
+frustrated,James 1:19-20,"Everyone should be quick to listen, slow to speak and slow to become angry, because human anger does not produce the righteousness that God desires.",This verse teaches us the value of patience and listening to temper our anger and respond in a godly way.
+frustrated,Proverbs 15:1,"A gentle answer turns away wrath, but a harsh word stirs up anger.","When we're angry, God calls us to respond with gentleness rather than fueling conflict with harsh words."
+outraged,Ephesians 4:26,"""In your anger do not sin"": Do not let the sun go down while you are still angry.","This verse reminds us that while anger is natural, it must be handled with care and not allowed to fester into sin or bitterness."
+outraged,James 1:19-20,"Everyone should be quick to listen, slow to speak and slow to become angry, because human anger does not produce the righteousness that God desires.",This verse teaches us the value of patience and listening to temper our anger and respond in a godly way.
+outraged,Proverbs 15:1,"A gentle answer turns away wrath, but a harsh word stirs up anger.","When we're angry, God calls us to respond with gentleness rather than fueling conflict with harsh words."
+bitter,Ephesians 4:26,"""In your anger do not sin"": Do not let the sun go down while you are still angry.","This verse reminds us that while anger is natural, it must be handled with care and not allowed to fester into sin or bitterness."
+bitter,James 1:19-20,"Everyone should be quick to listen, slow to speak and slow to become angry, because human anger does not produce the righteousness that God desires.",This verse teaches us the value of patience and listening to temper our anger and respond in a godly way.
+bitter,Proverbs 15:1,"A gentle answer turns away wrath, but a harsh word stirs up anger.","When we're angry, God calls us to respond with gentleness rather than fueling conflict with harsh words."
+resentful,Ephesians 4:26,"""In your anger do not sin"": Do not let the sun go down while you are still angry.","This verse reminds us that while anger is natural, it must be handled with care and not allowed to fester into sin or bitterness."
+resentful,James 1:19-20,"Everyone should be quick to listen, slow to speak and slow to become angry, because human anger does not produce the righteousness that God desires.",This verse teaches us the value of patience and listening to temper our anger and respond in a godly way.
+resentful,Proverbs 15:1,"A gentle answer turns away wrath, but a harsh word stirs up anger.","When we're angry, God calls us to respond with gentleness rather than fueling conflict with harsh words."
+aggravated,Ephesians 4:26,"""In your anger do not sin"": Do not let the sun go down while you are still angry.","This verse reminds us that while anger is natural, it must be handled with care and not allowed to fester into sin or bitterness."
+aggravated,James 1:19-20,"Everyone should be quick to listen, slow to speak and slow to become angry, because human anger does not produce the righteousness that God desires.",This verse teaches us the value of patience and listening to temper our anger and respond in a godly way.
+aggravated,Proverbs 15:1,"A gentle answer turns away wrath, but a harsh word stirs up anger.","When we're angry, God calls us to respond with gentleness rather than fueling conflict with harsh words."
+raging,Ephesians 4:26,"""In your anger do not sin"": Do not let the sun go down while you are still angry.","This verse reminds us that while anger is natural, it must be handled with care and not allowed to fester into sin or bitterness."
+raging,James 1:19-20,"Everyone should be quick to listen, slow to speak and slow to become angry, because human anger does not produce the righteousness that God desires.",This verse teaches us the value of patience and listening to temper our anger and respond in a godly way.
+raging,Proverbs 15:1,"A gentle answer turns away wrath, but a harsh word stirs up anger.","When we're angry, God calls us to respond with gentleness rather than fueling conflict with harsh words."
+enraged,Ephesians 4:26,"""In your anger do not sin"": Do not let the sun go down while you are still angry.","This verse reminds us that while anger is natural, it must be handled with care and not allowed to fester into sin or bitterness."
+enraged,James 1:19-20,"Everyone should be quick to listen, slow to speak and slow to become angry, because human anger does not produce the righteousness that God desires.",This verse teaches us the value of patience and listening to temper our anger and respond in a godly way.
+enraged,Proverbs 15:1,"A gentle answer turns away wrath, but a harsh word stirs up anger.","When we're angry, God calls us to respond with gentleness rather than fueling conflict with harsh words."
+exasperated,Ephesians 4:26,"""In your anger do not sin"": Do not let the sun go down while you are still angry.","This verse reminds us that while anger is natural, it must be handled with care and not allowed to fester into sin or bitterness."
+exasperated,James 1:19-20,"Everyone should be quick to listen, slow to speak and slow to become angry, because human anger does not produce the righteousness that God desires.",This verse teaches us the value of patience and listening to temper our anger and respond in a godly way.
+exasperated,Proverbs 15:1,"A gentle answer turns away wrath, but a harsh word stirs up anger.","When we're angry, God calls us to respond with gentleness rather than fueling conflict with harsh words."
+infuriated,Ephesians 4:26,"""In your anger do not sin"": Do not let the sun go down while you are still angry.","This verse reminds us that while anger is natural, it must be handled with care and not allowed to fester into sin or bitterness."
+infuriated,James 1:19-20,"Everyone should be quick to listen, slow to speak and slow to become angry, because human anger does not produce the righteousness that God desires.",This verse teaches us the value of patience and listening to temper our anger and respond in a godly way.
+infuriated,Proverbs 15:1,"A gentle answer turns away wrath, but a harsh word stirs up anger.","When we're angry, God calls us to respond with gentleness rather than fueling conflict with harsh words."
