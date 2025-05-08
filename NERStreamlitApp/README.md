@@ -1,4 +1,5 @@
 # 💖 Named Entity Recognition (NER) App With Sparkle
+<img width="846" alt="image" src="https://github.com/user-attachments/assets/1b8fb430-9803-46c5-8916-034bd7b0b8e3" />
 
 Welcome to the **NER With Sparkle App** — a vibrant, emoji-rich, and interactive web application designed for Named Entity Recognition (NER) using spaCy and Streamlit. Built with customization in mind, this tool allows users to define their own entity patterns and analyze text for both pre-trained and custom labels. This app was created as a personal project to combine creativity, usability, and core natural language processing concepts in an accessible and visually engaging way.
 
@@ -101,8 +102,11 @@ They would:
 2. Define two custom patterns:
    - Label: `FOOD`, Phrase: `pumpkin spice latte`
    - Label: `CELEB`, Phrase: `Taylor Swift`
+<img width="946" alt="image" src="https://github.com/user-attachments/assets/dae9d2bc-efb5-4bb6-bd3f-ecf0accf3e41" />
+
 3. Click **Run Entity Recognition**
 4. See the terms highlighted and their metadata in a downloadable table
+<img width="986" alt="image" src="https://github.com/user-attachments/assets/768c1aae-3662-4d99-9758-45698bf8fc34" />
 
 This tool is great for both casual exploration and early-phase annotation workflows.
 
