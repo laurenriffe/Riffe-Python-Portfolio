@@ -18,17 +18,6 @@ Make sure Python is installed (Python 3.9+ recommended).
 pip install streamlit pandas spacy
 python -m spacy download en_core_web_sm
 
-### 📁 File Structure
-StreamlitAppFinal/
-│
-├── bibleapp.py
-├── Final_Emotional_Bible.csv
-├── self_care_activities_updated.csv
-├── Christian_Emotions_Interpretation_Survey_Extended.csv
-├── Emotion_Quiz_Prompts.csv
-├── README.md
-
-
 ###▶️ Run the App
 From the root directory:
 
