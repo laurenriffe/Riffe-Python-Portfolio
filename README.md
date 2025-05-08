@@ -1,93 +1,95 @@
 # 💼 Lauren Riffe's Python Portfolio
 
-Welcome! This repository showcases a curated selection of my Python and data science projects built during my academic journey at the University of Notre Dame (Class of 2026). Each project reflects my passion for combining data, creativity, and code to solve meaningful problems — from digital wellness to emotional tech to interactive dashboards.
+Welcome! I'm Lauren Riffe — a Finance major at the University of Notre Dame with minors in Computing & Digital Technologies and Theology (Class of 2026). This GitHub portfolio is a living archive of my academic and personal development in Python, data science, and digital tool-building. It reflects my belief that code should be not only functional but also meaningful — used to enhance lives, solve real problems, and build with intention.
+
+## 🎯 Portfolio Goals
+- **Demonstrate technical depth** in Python, data analysis, and interactive apps
+- **Showcase diverse applications** from pet filtering to emotional wellness and Bible verse mapping
+- **Highlight creative intersections** of faith, emotion, and technology
+- **Practice clean project organization** using GitHub best practices (README structure, modular code, clear documentation)
+- **Develop as a technical communicator**, translating complex processes into clear, human-centered solutions
+
+Each project in this portfolio was designed to tell a story — whether helping users find their next pet or creating a safe space for emotional reflection through scripture.
 
 ---
 
 ## 🧭 Table of Contents  
-- [Pet Finder Project 🐾](#-pet-finder-project-)  
-- [Tidy Data Project 🧹](#-tidy-data-project-)  
-- [NER Streamlit App 💖](#-named-entity-recognition-ner-app-)  
-- [Emotional Bible Reader ✝️](#-emotional-bible-verse-reader-)
+- [Pet Finder Project 🐾](#-pet-finder-project)  
+- [Tidy Data Project 🧹](#-tidy-data-project)  
+- [NER Streamlit App 💖](#-ner-streamlit-app)  
+- [Emotional Bible Reader ✝️](#-emotional-bible-verse-reader)
 
 ---
 
-## 🐾 Pet Finder Project  
+## 📅 Summary of Skills
 
-### 📌 Overview  
-A lightweight, interactive Streamlit app that lets users explore pet adoption data and find their perfect pet by filtering animals by size. Built for usability and clarity, this app emphasizes user-centered design in data applications.
+**Languages & Tools**: Python • R • pandas • Streamlit • spaCy • matplotlib • seaborn • Git/GitHub • VS Code
 
-### 💡 What It Demonstrates  
-- Building interactive web apps with Streamlit  
-- Basic UI logic and filtering functionality  
-- Working with pandas DataFrames and CSVs  
-- Designing accessible, purpose-driven digital tools  
-
-### 🔍 Skills Highlighted  
-`Python` • `pandas` • `Streamlit` • `User Filtering Logic` • `CSV Handling`
-
-📁 [Explore the project](https://github.com/laurenriffe/Riffe-Python-Portfolio/tree/main/basic_streamlit_app)
+**Strengths**:
+- Interactive app development with Streamlit
+- Data wrangling and visualization
+- Emotionally intelligent NLP applications
+- Structured, readable project documentation
 
 ---
 
-## 🧹 Tidy Data Project  
+## 📄 Featured Projects
 
-### 📌 Overview  
-A data cleaning and visualization project based on the 2008 Olympic medalist dataset. The goal was to apply tidy data principles for clarity and transform the dataset into a visually rich story about gender and sport distributions across medal categories.
+### 🐾 Pet Finder Project  
+**A Streamlit web app that lets users filter and discover adoptable pets based on size.**
+- Built a clean UI for pet selection
+- Highlights user input logic, basic app structure, and CSV data parsing
+- Developed to explore human-centered data filtering with simple UX logic
 
-### 💡 What It Demonstrates  
-- Application of Hadley Wickham’s tidy data principles  
-- Reshaping, cleaning, and organizing raw data  
-- Producing visual insights through charts and graphs  
-- Communicating patterns in structured datasets  
-
-### 🔍 Skills Highlighted  
-`pandas` • `matplotlib` • `seaborn` • `Data Wrangling` • `Exploratory Data Analysis`
-
-📁 [Explore the project](https://github.com/laurenriffe/Riffe-Python-Portfolio/tree/main/TidyData-Project)
+[Explore the Pet Finder Project →](https://github.com/laurenriffe/Riffe-Python-Portfolio/tree/main/basic_streamlit_app)
 
 ---
 
-## 💖 Named Entity Recognition (NER) App  
+### 🧹 Tidy Data Project  
+**Cleaned and visualized Olympic medalist data to follow tidy data principles.**
+- Transformed wide-format data using melt
+- Built gender/sport-based distribution visuals
+- Practiced advanced data wrangling and storytelling
+- Explores equity and representation through data
 
-### 📌 Overview  
-A vibrant and user-friendly NER application built with Streamlit and spaCy. This pink-themed app allows users to analyze text with built-in and custom entities, offering an educational and fun experience in language processing.
-
-### 💡 What It Demonstrates  
-- Natural Language Processing with spaCy  
-- Custom entity rule creation (e.g., FOOD, EMOTION)  
-- Building fun, approachable UI for serious tools  
-- Enhancing accessibility in AI/NLP apps through design  
-
-### 🔍 Skills Highlighted  
-`spaCy` • `Streamlit` • `EntityRuler` • `Text Annotation` • `UI/UX Design`
-
-📁 [Explore the project](https://github.com/laurenriffe/Riffe-Python-Portfolio/tree/main/NERStreamlitApp)
+[Explore the Tidy Data Project →](https://github.com/laurenriffe/Riffe-Python-Portfolio/tree/main/TidyData-Project)
 
 ---
 
-## ✝️ Emotional Bible Verse Reader  
+### 💖 NER Streamlit App  
+**An NLP-powered Streamlit app with emoji-rich UI that performs Named Entity Recognition using spaCy.**
+- Supports custom entity categories like FOOD, EMOTION, EVENT
+- Color-coded annotations and data table for full entity display
+- Designed to teach NLP in a creative, interactive way
 
-### 📌 Overview  
-An emotionally intelligent Streamlit app designed to support holistic Christian self-care. By using NLP to detect emotions from user reflections, the app recommends Bible verses tailored to the user’s current mental and spiritual state.
+[Explore the NER App →](https://github.com/laurenriffe/Riffe-Python-Portfolio/tree/main/NERStreamlitApp)
 
-### 💡 What It Demonstrates  
-- Advanced use of spaCy NLP to extract emotional keywords  
-- Mapping emotion categories to curated biblical verses  
-- Designing tools that bridge technology and spirituality  
-- Creating a meaningful and reflective user journey  
+---
 
-### 🔍 Skills Highlighted  
-`spaCy` • `Streamlit` • `NLP` • `Emotional Analysis` • `Data Mapping` • `UX for Mental Health`
+### ✝️ Emotional Bible Verse Reader  
+**Matches user-written emotional reflections with relevant Bible verses.**
+- Uses spaCy to extract emotion-aligned keywords
+- Recommends three Bible verses per emotion category
+- Designed for Christian mental wellness and self-care
+- Merges tech, theology, and emotional literacy
 
-📁 [Explore the project](https://github.com/laurenriffe/Riffe-Python-Portfolio/tree/main/StreamlitAppFinal)
+[Explore the Bible Verse Reader →](https://github.com/laurenriffe/Riffe-Python-Portfolio/tree/main/StreamlitAppFinal)
 
 ---
 
 ## 🙋‍♀️ About Me
 
-I’m Lauren — a Finance major at the University of Notre Dame with minors in Computing & Digital Technologies and Theology. I’m passionate about building tech with intention: whether it’s a wellness app or a data visualization tool, I strive to make my projects beautiful, functional, and human-centered.
+I’m Lauren — a student and builder blending finance, theology, and technology. I care about creating elegant, useful, and intentional tools that empower others. Whether it’s cleaning Olympic data or exploring scripture with AI, I approach coding with creativity and empathy.
 
 🔗 [LinkedIn](https://www.linkedin.com/in/lauren-riffe) • ✉️ lriffe@nd.edu • 🌐 [GitHub Profile](https://github.com/laurenriffe)
 
 ---
+
+## 🌟 GitHub Highlights
+
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=laurenriffe&show_icons=true&theme=default)  
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=laurenriffe&layout=compact&theme=default)
+
+---
+
+> “Code isn’t just for systems. It’s for stories, healing, and creating tools that care.”
