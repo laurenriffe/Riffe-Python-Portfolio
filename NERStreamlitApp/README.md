@@ -1,69 +1,147 @@
-# ✝️ Emotional Bible Guide: A Streamlit App for Soul + Self-Care 🌈
+# 💖 Named Entity Recognition (NER) App With Sparkle
 
-## 🧠 Project Overview
+Welcome to the **NER With Sparkle App** — a vibrant, emoji-rich, and interactive web application designed for Named Entity Recognition (NER) using spaCy and Streamlit. Built with customization in mind, this tool allows users to define their own entity patterns and analyze text for both pre-trained and custom labels. This app was created as a personal project to combine creativity, usability, and core natural language processing concepts in an accessible and visually engaging way.
 
-The **Emotional Bible Guide** is a personalized, emotionally intelligent web app built to provide holistic spiritual and emotional support. Using advanced NLP (`spaCy`), structured data (`pandas`), and an elegant UI (`Streamlit`), this app helps users connect their emotional states with relevant scripture and Christian self-care practices.
-
-> This app was designed with one goal: to care for the **whole person** — spirit, mind, and body. Because mental wellness and faith are not mutually exclusive — they’re mutually necessary.
+Perfect for students, NLP beginners, or anyone who wants to make text analysis ✨fabulous✨.
 
 ---
 
-## ⚙️ Setup & Run Instructions
+## 🧠 Purpose & Learning Outcomes
 
-### 📥 Installation Requirements
+This project is designed to:
+- Demonstrate the power and flexibility of spaCy's `EntityRuler`
+- Help users interactively understand how NER works by editing and viewing custom entity patterns in real time
+- Provide hands-on experience with text preprocessing and recognition
+- Showcase how user-friendly interfaces and branding can improve adoption and comprehension of technical tools
 
-Make sure Python is installed (Python 3.9+ recommended).
+By the end of exploring this app, users will:
+- Understand how to define rule-based entities
+- Recognize key functionality of spaCy pipelines
+- Feel comfortable exporting and working with NER output in CSV format
 
-### 🔧 Install Dependencies
-pip install streamlit pandas spacy
+---
+
+## 📊 Project Overview
+
+**NER With Sparkle** is a web-based natural language processing tool that uses `spaCy` to recognize and categorize named entities in any user-provided text. It goes beyond basic NER by allowing the user to define their own custom labels and phrase patterns, which are added to spaCy’s processing pipeline using the `EntityRuler` component. The app runs entirely in-browser via Streamlit and offers live visualization and data table exports for further exploration.
+
+This project merges:
+- Pre-trained NER via `en_core_web_sm`
+- Rule-based annotation for user-defined categories
+- Front-end UX customizations to create a warm and accessible data tool
+
+Use cases include:
+- Teaching students how NLP models work
+- Collecting data for user-defined categories (e.g., `FOOD`, `CELEBRITY`, `BRAND`)
+- Reviewing or annotating written material for patterns and structure
+
+---
+
+## 🎯 Key Features
+
+- 📝 **Paste or Upload Text** – Analyze long-form text or quick blurbs
+- ✏️ **Custom Pattern Builder** – Define and visualize new entity categories
+- 🧠 **spaCy + EntityRuler** – Integrate rule-based patterns with machine-learned NER
+- 📦 **Interactive Annotations** – View highlighted entities with label color overlays
+- 📊 **Dataframe Output** – Access, sort, and download entity results in table format
+- 💾 **Export to CSV** – Save the full entity list and metadata with one click
+
+---
+
+## 🧰 Tech Stack
+
+| Tool        | Purpose                            |
+|-------------|------------------------------------|
+| `Python`    | Core application logic              |
+| `spaCy`     | NLP engine for NER & tokenization   |
+| `Streamlit` | Interactive web interface           |
+| `pandas`    | Tabular result formatting/export    |
+
+---
+
+## 📁 Project Directory Structure
+
+```
+NERStreamlitApp/
+├── app.py                # Main application file
+├── README.md             # Project documentation (this file)
+```
+
+---
+
+## ⚙️ Setup & Launch Instructions
+
+### 1. Clone the Repository
+```
+git clone https://github.com/laurenriffe/Riffe-Python-Portfolio.git
+cd Riffe-Python-Portfolio/NERStreamlitApp
+```
+
+### 2. Install Required Libraries
+```
+pip install streamlit spacy pandas
 python -m spacy download en_core_web_sm
+```
 
-###▶️ Run the App
-From the root directory:
+### 3. Launch the App
+```
+streamlit run app.py
+```
 
-streamlit run bibleapp.py
-Open your browser to http://localhost:8501 if it doesn’t open automatically.
+---
 
-### 🌟 App Features
-🧭 Navigation
-Switch between pages using the sidebar:
+## 🧪 Example Scenario
 
-Home – Introduction and aesthetic overview
-Verse Finder – Write your feelings → Get 3 Bible verses + reflection
-Emotional Quiz – Not sure how you feel? Check a few boxes to get a diagnosis + self-care suggestion
+Let’s say a user wants to find `FOOD` and `CELEB` references in this sentence:
 
-### ✍️ Verse Finder
-User Input: Free-text reflection
-Processing: spaCy NLP extracts emotional keywords (nouns/adjectives/verbs)
-Matching: Matches keywords to emotion-tagged verses in a CSV
-Output: 3 verse cards with styled text, matching emotion, and custom reflections
+> I grabbed a pumpkin spice latte before going to the Taylor Swift concert.
 
-### 🌈 Emotional Discovery Quiz
-User Input: 12 checkboxes (each with a unique emoji + color)
-Processing: Scores your top emotional state based on answers
-Output: Suggests a glow-styled Christian self-care activity
+They would:
+1. Upload or paste the text
+2. Define two custom patterns:
+   - Label: `FOOD`, Phrase: `pumpkin spice latte`
+   - Label: `CELEB`, Phrase: `Taylor Swift`
+3. Click **Run Entity Recognition**
+4. See the terms highlighted and their metadata in a downloadable table
 
-### 🎨 Design & UX Highlights
-🌸 Custom CSS glow boxes and floating headers
-🌈 Animated gradients, emotive emojis, and color-coded responses
-💬 Tooltips, feedback prompts, and rotating affirmations
-🧩 Modular and readable code with full error handling and caching
+This tool is great for both casual exploration and early-phase annotation workflows.
 
-### 📚 References & Resources
-Streamlit Docs
-spaCy NLP
-Pandas
-Design inspiration: CSS Tricks
-Emojis: Emojipedia
-Color Palettes: Coolors
-Bible content: Curated from public-domain scripture repositories
+---
 
-### 🖼️ Visual Examples
-<img width="621" alt="Screenshot 2025-05-07 at 10 09 15 PM" src="https://github.com/user-attachments/assets/73eedad7-3b96-4e78-ba13-e70b351b6860" />
+## 📌 Requirements
+- Python 3.7+
+- Streamlit
+- spaCy
+- pandas
 
-<img width="621" alt="Screenshot 2025-05-07 at 10 09 41 PM" src="https://github.com/user-attachments/assets/3b182f32-610c-49e1-a33d-a5c2c5201678" />
+Install with:
+```
+pip install streamlit spacy pandas
+python -m spacy download en_core_web_sm
+```
 
-### 🙌 Final Thoughts
-The Emotional Bible Guide isn’t just an app — it’s a peaceful place to feel, reflect, and heal. Whether you’re experiencing spiritual highs or emotional lows, this app brings God’s word into your everyday emotional vocabulary.
+---
 
+## 📚 References
+- [spaCy NER Documentation](https://spacy.io/usage/linguistic-features#named-entities)
+- [EntityRuler API](https://spacy.io/api/entityruler)
+- [Streamlit Docs](https://docs.streamlit.io/)
 
+---
+
+## 🌟 Why This Project Stands Out
+- ✅ Combines rule-based and statistical NLP in a clean interface
+- ✅ Promotes hands-on learning by letting users define their own entities
+- ✅ Bridges academic NLP and playful branding for wider engagement
+- ✅ Encourages experimentation while remaining technically robust
+
+---
+
+## 👩‍💻 About the Creator
+
+Lauren Riffe is a Finance major at the University of Notre Dame with minors in Computing & Digital Technologies and Theology. She builds creative, user-friendly tools that blend serious functionality with joyful design — making data analysis both beautiful and empowering.
+
+📫 [lriffe@nd.edu](mailto:lriffe@nd.edu)  
+🔗 [LinkedIn](https://www.linkedin.com/in/lauren-riffe)
+
+---
