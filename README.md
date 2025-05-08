@@ -88,5 +88,3 @@ I’m Lauren — a student and builder blending finance, theology, and technolog
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=laurenriffe&layout=compact&theme=default)
 
 ---
-
-> “Code isn’t just for systems. It’s for stories, healing, and creating tools that care.”
