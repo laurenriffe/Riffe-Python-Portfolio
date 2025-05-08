@@ -4,28 +4,17 @@ Welcome! I'm Lauren Riffe — a Finance major at the University of Notre Dame wi
 
 ## 🔍 At a Glance
 
-### 🐾 Pet Finder Project  
+### 🐾 [Pet Finder Project 🐾](#-pet-finder-project)   
 Use filters to help users find adoptable pets based on size using an interactive Streamlit app.
 
-### 🧹 Tidy Data Project  
+### 🧹 [Tidy Data Project 🧹](#-tidy-data-project)  
 Clean and restructure Olympic medalist data to explore gender and sport patterns through visualizations.
 
-### 💖 NER Streamlit App  
+### 💖 [NER Streamlit App 💖](#-ner-streamlit-app) 
 Highlight entities like FOOD and EMOTION from user-inputted text using a spaCy-powered pink-themed NER app.
 
-### ✝️ Emotional Bible Verse Reader  
+### [Emotional Bible Reader ✝️](#-emotional-bible-verse-reader)
 Analyze emotional reflections and return relevant Bible verses for Christian spiritual and emotional support.
-
-
-Each project in this portfolio was designed to tell a story — whether helping users find their next pet or creating a safe space for emotional reflection through scripture.
-
----
-
-## 🧭 Table of Contents  
-- [Pet Finder Project 🐾](#-pet-finder-project)  
-- [Tidy Data Project 🧹](#-tidy-data-project)  
-- [NER Streamlit App 💖](#-ner-streamlit-app)  
-- [Emotional Bible Reader ✝️](#-emotional-bible-verse-reader)
 
 ---
 
