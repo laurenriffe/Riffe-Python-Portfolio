@@ -2,12 +2,20 @@
 
 Welcome! I'm Lauren Riffe — a Finance major at the University of Notre Dame with minors in Computing & Digital Technologies and Theology (Class of 2026). This GitHub portfolio is a living archive of my academic and personal development in Python, data science, and digital tool-building. It reflects my belief that code should be not only functional but also meaningful — used to enhance lives, solve real problems, and build with intention.
 
-## 🎯 Portfolio Goals
-- **Demonstrate technical depth** in Python, data analysis, and interactive apps
-- **Showcase diverse applications** from pet filtering to emotional wellness and Bible verse mapping
-- **Highlight creative intersections** of faith, emotion, and technology
-- **Practice clean project organization** using GitHub best practices (README structure, modular code, clear documentation)
-- **Develop as a technical communicator**, translating complex processes into clear, human-centered solutions
+## 🔍 At a Glance
+
+### 🐾 Pet Finder Project  
+Use filters to help users find adoptable pets based on size using an interactive Streamlit app.
+
+### 🧹 Tidy Data Project  
+Clean and restructure Olympic medalist data to explore gender and sport patterns through visualizations.
+
+### 💖 NER Streamlit App  
+Highlight entities like FOOD and EMOTION from user-inputted text using a spaCy-powered pink-themed NER app.
+
+### ✝️ Emotional Bible Verse Reader  
+Analyze emotional reflections and return relevant Bible verses for Christian spiritual and emotional support.
+
 
 Each project in this portfolio was designed to tell a story — whether helping users find their next pet or creating a safe space for emotional reflection through scripture.
 
