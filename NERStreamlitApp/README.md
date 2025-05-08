@@ -1,4 +1,3 @@
-# 💖 Named Entity Recognition (NER) App With Sparkle
 <img width="846" alt="image" src="https://github.com/user-attachments/assets/1b8fb430-9803-46c5-8916-034bd7b0b8e3" />
 
 Welcome to the **NER With Sparkle App** — a vibrant, emoji-rich, and interactive web application designed for Named Entity Recognition (NER) using spaCy and Streamlit. Built with customization in mind, this tool allows users to define their own entity patterns and analyze text for both pre-trained and custom labels. This app was created as a personal project to combine creativity, usability, and core natural language processing concepts in an accessible and visually engaging way.
