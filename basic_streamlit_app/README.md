@@ -1,4 +1,4 @@
-# 🐾 Project Pet Finder
+<img width="329" alt="image" src="https://github.com/user-attachments/assets/bc0ae81f-8642-4c9a-a57d-7438254d34b7" />
 
 Welcome to **Project Pet Finder**, an interactive and beginner-friendly web application built with Streamlit. This tool empowers users to explore, filter, and engage with real-world pet data through a simple, intuitive interface. Designed as a lightweight data product, this project demonstrates core data handling and front-end logic principles in Python. Whether you're new to coding or just love animals, this app offers an engaging, accessible learning experience.
 
@@ -29,7 +29,9 @@ It is part of a broader portfolio focused on creating elegant, user-centered too
 ## 🎯 Features
 
 - ✅ **Interactive Pet Table** – Browse pets by name, color, and size in a scrollable table
+<img width="718" alt="image" src="https://github.com/user-attachments/assets/a54b8515-a380-4c29-a239-ee9fdaad5d8b" />
 - 🔎 **Dropdown Filtering** – Instantly filter pets by size (`LARGE`, `MED`, `SMALL`) with intuitive controls
+<img width="718" alt="image" src="https://github.com/user-attachments/assets/a688ca77-e291-4e34-9863-bbbd7e3c1e6e" />
 - 📂 **Dynamic CSV Import** – Easily replace or expand the dataset using any structured CSV file
 - 🌈 **Minimalist Visual Design** – Engaging layout using native Streamlit components for a professional look
 
