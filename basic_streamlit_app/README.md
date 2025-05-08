@@ -30,8 +30,10 @@ It is part of a broader portfolio focused on creating elegant, user-centered too
 
 - ✅ **Interactive Pet Table** – Browse pets by name, color, and size in a scrollable table
 <img width="718" alt="image" src="https://github.com/user-attachments/assets/a54b8515-a380-4c29-a239-ee9fdaad5d8b" />
+
 - 🔎 **Dropdown Filtering** – Instantly filter pets by size (`LARGE`, `MED`, `SMALL`) with intuitive controls
 <img width="718" alt="image" src="https://github.com/user-attachments/assets/a688ca77-e291-4e34-9863-bbbd7e3c1e6e" />
+
 - 📂 **Dynamic CSV Import** – Easily replace or expand the dataset using any structured CSV file
 - 🌈 **Minimalist Visual Design** – Engaging layout using native Streamlit components for a professional look
 
