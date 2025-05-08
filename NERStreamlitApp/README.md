@@ -15,8 +15,6 @@ The **Emotional Bible Guide** is a personalized, emotionally intelligent web app
 Make sure Python is installed (Python 3.9+ recommended).
 
 ### 🔧 Install Dependencies
-
-```bash
 pip install streamlit pandas spacy
 python -m spacy download en_core_web_sm
 
