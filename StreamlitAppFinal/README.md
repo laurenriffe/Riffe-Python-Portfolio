@@ -1,129 +1,164 @@
-# Riffe-Python-Portfolio
+# ✝️ Emotional Bible Verse Reader
 
-This repository will encompass all my completed coding projects. Organized by folders and a short description for each project, I will showcase data analysis skills and Python proficiency.
----
-## How This Portfolio is Structured  
-This portfolio showcases my data analysis and Python proficiency through multiple projects. The **Pet Finder Project** demonstrates my ability to build interactive web applications using Streamlit, while the **Tidy Data Project** highlights my skills in data cleaning, structuring, and visualization. Each project contributes to a well-rounded coding portfolio that reflects my growing expertise in Python programming and data analysis.
-
-
-# Pet Finder Project  
-
-## Project Overview  
-The **Pet Finder Project** is a Streamlit-based web app designed to help users find their perfect pet by filtering available pets based on size. The application utilizes a dataset containing various pet attributes, making it easier to explore and compare different options.  
-
-[View the Pet Finder Project Repository](<https://github.com/laurenriffe/Riffe-Python-Portfolio/tree/main/basic_streamlit_app>)  
-
-
-## Instructions  
-To run the project, follow these steps:  
-1. Ensure you have Python installed on your system.  
-2. Install the required dependencies using:  
-   ```bash
-   pip install streamlit pandas
-   ```  
-3. Navigate to the project directory and run the Streamlit app with:  
-   ```bash
-   streamlit run main.py
-   ```  
-
-## Dataset Description  
-The dataset includes information on various pets, including their size, breed, and other characteristics. Users can filter pets based on their preferences to find the best match.  
-
-## References  
-For more details on Streamlit, check out:  
-- [Streamlit Documentation](https://docs.streamlit.io/)  
+Welcome to the **Emotional Bible Verse Reader**, a soulful Streamlit web app that combines natural language processing (NLP), faith-based wisdom, and visual design to help users reflect emotionally and spiritually. Whether you're overwhelmed, joyful, or unsure how you feel, this app guides you to scripture and Christian self-care practices that meet you where you are.
 
 ---
 
-# Tidy Data Project  
+## 🧠 Purpose & Learning Outcomes
 
-## Project Overview  
-The **Tidy Data Project** focuses on cleaning and visualizing data from the 2008 Olympics medalists dataset. The goal is to ensure the dataset adheres to tidy data principles by structuring it properly—each variable has its own column, each observation is in a separate row, and each data type is consistent. The project also includes visualizations to highlight key insights from the cleaned data.  
+This project is designed to:
+- Help users reflect on emotional states through expressive writing or structured self-assessment
+- Leverage NLP to map feelings to a labeled emotion dataset of curated Bible verses
+- Encourage holistic wellness by combining spiritual encouragement with emotional awareness
+- Showcase how technology can uplift and empower spiritual practice
 
-[View the Tidy Data Project Repository](<https://github.com/laurenriffe/Riffe-Python-Portfolio/tree/main/TidyData-Project>)  
+By using this tool, users can:
+- Gain insights into their emotional state
+- Receive personalized biblical encouragement
+- Explore Christian self-care ideas
 
-## Instructions  
-### Prerequisites  
-Ensure you have the following dependencies installed:  
-- Python 3.x  
-- pandas  
-- matplotlib  
-- seaborn  
+---
 
-You can install the required packages using:  
-```bash
-pip install pandas matplotlib seaborn
+## 📊 Project Overview
+
+**The Emotional Bible Verse Reader** is an app with two main features:
+
+### 📖 1. Verse Finder
+- Users write how they're feeling in free-form text
+- spaCy’s NLP engine identifies emotional keywords
+- Keywords are matched to a dataset of labeled Bible verses
+- Users receive 3 relevant verses and a spiritual reflection
+
+### 🌈 2. Relief Activity Assessment
+- Users check statements that describe how they feel
+- The system calculates their dominant emotion
+- Personalized self-care recommendations are presented based on the emotion
+
+---
+
+## 🎯 Key Features
+- 💬 **Text-Based Reflection Input** – Users can describe their feelings naturally
+- 🔍 **Emotion Keyword Extraction** – spaCy analyzes the text to identify core emotional terms
+- 📖 **Bible Verse Matching** – Top-matching verses displayed with labeled emotion and interpretation
+- 🧠 **Emotional Quiz** – Checkbox survey auto-detects dominant feeling and returns a care activity
+- 🎨 **Custom UI/UX Design** – Clean, pastel-themed app with CSS animation and glowing section boxes
+- 💾 **CSV-Based Datasets** – Bible verse + emotion tags, survey questions, and activity descriptions are fully editable
+
+---
+
+## 🧰 Tech Stack
+
+| Tool         | Purpose                                        |
+|--------------|------------------------------------------------|
+| `Python`     | App logic and backend                          |
+| `Streamlit`  | Front-end UI + routing                         |
+| `spaCy`      | NLP engine for emotion keyword extraction      |
+| `pandas`     | Data processing + CSV integration              |
+| `HTML/CSS`   | Custom styling for vibrant user experience     |
+
+---
+
+## 📁 Project Directory Structure
+
+```
+StreamlitAppFinal/
+├── bibleapp.py                              # Main Streamlit app
+├── Final_Emotional_Bible.csv                # Emotion-tagged Bible verses
+├── self_care_activities_updated.csv         # Activities mapped to emotions
+├── Christian_Emotions_Interpretation_Survey_Extended.csv  # Relief quiz questions
+├── README.md                                # This documentation file
 ```
 
-### Running the Notebook  
-1. Clone this repository:  
-   ```bash
-   git clone <repository_url>
-   ```
-2. Navigate to the project directory:  
-   ```bash
-   cd TidyData-Project
-   ```
-3. Run the Python script:  
-   ```bash
-   python TidyData-Project.py
-   ```
+---
 
-## Dataset Description  
-- **Source:** The dataset contains information on medalists from the 2008 Olympics.  
-- **Pre-processing Steps:**  
-  - Data reshaping using the `melt()` function.  
-  - Handling missing values by dropping them.  
-  - Extracting relevant attributes (e.g., gender and sport) from column names.  
-  - Cleaning column values for readability.  
-  - Saving the cleaned dataset for further use.  
+## ⚙️ Setup Instructions (Local)
 
-## References  
-- [Tidy Data Principles by Hadley Wickham](https://vita.had.co.nz/papers/tidy-data.pdf)  
-- [Pandas Cheat Sheet](https://pandas.pydata.org/Pandas_Cheat_Sheet.pdf)  
+### 1. Clone the Repository
+```
+git clone https://github.com/laurenriffe/Riffe-Python-Portfolio.git
+cd Riffe-Python-Portfolio/StreamlitAppFinal
+```
 
-## Visual Examples  
-### Medal Distribution by Sport  
-<img width="1108" alt="Distribution by Sport" src="https://github.com/user-attachments/assets/9fc86f55-120b-475d-be73-131cd0a59076" />
-
-
-### Medal Distribution by Gender  
-<img width="725" alt="Medal Distribution by Gender" src="https://github.com/user-attachments/assets/52c67414-3fcc-472f-b271-02e836458c05" />
-
-
-# Named Entity Recognition (NER) App 💖
-
-## Project Overview
-
-The NER Streamlit App is a fun and interactive web application that allows users to perform Named Entity Recognition using both pre-trained and custom models. Built with spaCy and Streamlit, this pink-themed app lets users paste or upload text, define their own entity rules (like FOOD, CELEB, EVENT, and EMOTION), and instantly see their content analyzed and colorfully annotated.
-
-## Instructions
-
-To run the project, follow these steps:
-
-Make sure Python 3.x is installed.
-Install the dependencies:
-pip install streamlit spacy pandas
+### 2. Install Required Libraries
+```
+pip install streamlit pandas spacy
 python -m spacy download en_core_web_sm
-Run the app:
-cd NERStreamlitApp  
-streamlit run app.py
-Features
+```
 
-💬 Paste or upload your own text
-✨ Pink-themed, emoji-enhanced UI
-🧠 Uses spaCy’s built-in NER plus custom entity rules
-🎨 Highlighted entities in text and detailed entity table view
-🧪 Sample text examples and helpful usage explanations
-🎉 Detects entities like Person, Organization, FOOD, EMOTION, and more!
+### 3. Run the App
+```
+streamlit run bibleapp.py
+```
 
-## References
-spaCy NER Documentation
-EntityRuler API
-Streamlit Docs
-
+You’ll be able to use the sidebar to navigate between the **Home**, **Verse Finder**, and **Relief Activity Assessment** pages.
 
 ---
 
+## ☁️ Deployment (Cloud)
 
+This app can be deployed to [Streamlit Cloud](https://streamlit.io/cloud) by:
+1. Uploading the repo to your GitHub account
+2. Creating a new app and pointing it to `bibleapp.py`
+3. Ensuring the required CSV files are included in the repo
+4. Adding a `requirements.txt` with:
+```
+streamlit
+pandas
+spacy
+```
 
+---
+
+## 🖼 Screenshots
+
+### 🏠 Home Page with Navigation
+*Clean visual entrypoint for users to begin exploring their emotions through Scripture.*
+
+### 📖 Verse Finder (User Input Example)
+*Input field, emotion extraction results, matching verses with reflection.*
+
+### 🌈 Relief Activity Assessment
+*Checkbox quiz with dynamic emotion scoring and personalized care activity.*
+
+---
+
+## 📌 Requirements
+- Python 3.7+
+- Streamlit
+- spaCy (`en_core_web_sm`)
+- pandas
+
+Install with:
+```
+pip install streamlit pandas spacy
+python -m spacy download en_core_web_sm
+```
+
+---
+
+## 📚 References
+- [spaCy Docs](https://spacy.io)
+- [Streamlit Docs](https://docs.streamlit.io)
+- [Custom CSS Animations](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_animations/Using_CSS_animations)
+- [Pandas Documentation](https://pandas.pydata.org/)
+
+---
+
+## 🌟 Why This Project Stands Out
+- ✅ Fuses faith, technology, and design
+- ✅ Offers a calm, uplifting space to reflect spiritually and emotionally
+- ✅ Fully editable CSV-based back-end for future customization or ministry use
+- ✅ Unique example of using NLP in wellness + devotional contexts
+
+---
+
+## 👩‍💻 About the Creator
+
+Lauren Riffe is a Finance major at the University of Notre Dame with minors in Computing & Digital Technologies and Theology. This project reflects her mission to design emotionally intelligent tech with spiritual depth, accessible design, and practical impact.
+
+📫 [lriffe@nd.edu](mailto:lriffe@nd.edu)  
+🔗 [LinkedIn](https://www.linkedin.com/in/lauren-riffe)
+
+---
+
+> “God meets us where we are — this tool simply gives language and light to the journey.”

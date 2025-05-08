@@ -1,129 +1,90 @@
-# Riffe-Python-Portfolio
+# 💼 Lauren Riffe's Python Portfolio
 
-This repository will encompass all my completed coding projects. Organized by folders and a short description for each project, I will showcase data analysis skills and Python proficiency.
----
-## How This Portfolio is Structured  
-This portfolio showcases my data analysis and Python proficiency through multiple projects. The **Pet Finder Project** demonstrates my ability to build interactive web applications using Streamlit, while the **Tidy Data Project** highlights my skills in data cleaning, structuring, and visualization. Each project contributes to a well-rounded coding portfolio that reflects my growing expertise in Python programming and data analysis.
+Welcome! I'm Lauren Riffe — a Finance major at the University of Notre Dame with minors in Computing & Digital Technologies and Theology (Class of 2026). This GitHub portfolio is a living archive of my academic and personal development in Python, data science, and digital tool-building. It reflects my belief that code should be not only functional but also meaningful — used to enhance lives, solve real problems, and build with intention.
 
+## 🔍 At a Glance
 
-# Pet Finder Project  
+### 🐾 [Pet Finder Project 🐾](#-pet-finder-project)   
+Use filters to help users find adoptable pets based on size using an interactive Streamlit app.
 
-## Project Overview  
-The **Pet Finder Project** is a Streamlit-based web app designed to help users find their perfect pet by filtering available pets based on size. The application utilizes a dataset containing various pet attributes, making it easier to explore and compare different options.  
+### 🧹 [Tidy Data Project 🧹](#-tidy-data-project)  
+Clean and restructure Olympic medalist data to explore gender and sport patterns through visualizations.
 
-[View the Pet Finder Project Repository](<https://github.com/laurenriffe/Riffe-Python-Portfolio/tree/main/basic_streamlit_app>)  
+### 💖 [NER Streamlit App 💖](#-ner-streamlit-app) 
+Highlight entities like FOOD and EMOTION from user-inputted text using a spaCy-powered pink-themed NER app.
 
-
-## Instructions  
-To run the project, follow these steps:  
-1. Ensure you have Python installed on your system.  
-2. Install the required dependencies using:  
-   ```bash
-   pip install streamlit pandas
-   ```  
-3. Navigate to the project directory and run the Streamlit app with:  
-   ```bash
-   streamlit run main.py
-   ```  
-
-## Dataset Description  
-The dataset includes information on various pets, including their size, breed, and other characteristics. Users can filter pets based on their preferences to find the best match.  
-
-## References  
-For more details on Streamlit, check out:  
-- [Streamlit Documentation](https://docs.streamlit.io/)  
+### ✝️ [Emotional Bible Reader ✝️](#-emotional-bible-verse-reader)
+Analyze emotional reflections and return relevant Bible verses for Christian spiritual and emotional support.
 
 ---
 
-# Tidy Data Project  
+## 📅 Summary of Skills
 
-## Project Overview  
-The **Tidy Data Project** focuses on cleaning and visualizing data from the 2008 Olympics medalists dataset. The goal is to ensure the dataset adheres to tidy data principles by structuring it properly—each variable has its own column, each observation is in a separate row, and each data type is consistent. The project also includes visualizations to highlight key insights from the cleaned data.  
+**Languages & Tools**: Python • R • pandas • Streamlit • spaCy • matplotlib • seaborn • Git/GitHub • VS Code
 
-[View the Tidy Data Project Repository](<https://github.com/laurenriffe/Riffe-Python-Portfolio/tree/main/TidyData-Project>)  
-
-## Instructions  
-### Prerequisites  
-Ensure you have the following dependencies installed:  
-- Python 3.x  
-- pandas  
-- matplotlib  
-- seaborn  
-
-You can install the required packages using:  
-```bash
-pip install pandas matplotlib seaborn
-```
-
-### Running the Notebook  
-1. Clone this repository:  
-   ```bash
-   git clone <repository_url>
-   ```
-2. Navigate to the project directory:  
-   ```bash
-   cd TidyData-Project
-   ```
-3. Run the Python script:  
-   ```bash
-   python TidyData-Project.py
-   ```
-
-## Dataset Description  
-- **Source:** The dataset contains information on medalists from the 2008 Olympics.  
-- **Pre-processing Steps:**  
-  - Data reshaping using the `melt()` function.  
-  - Handling missing values by dropping them.  
-  - Extracting relevant attributes (e.g., gender and sport) from column names.  
-  - Cleaning column values for readability.  
-  - Saving the cleaned dataset for further use.  
-
-## References  
-- [Tidy Data Principles by Hadley Wickham](https://vita.had.co.nz/papers/tidy-data.pdf)  
-- [Pandas Cheat Sheet](https://pandas.pydata.org/Pandas_Cheat_Sheet.pdf)  
-
-## Visual Examples  
-### Medal Distribution by Sport  
-<img width="1108" alt="Distribution by Sport" src="https://github.com/user-attachments/assets/9fc86f55-120b-475d-be73-131cd0a59076" />
-
-
-### Medal Distribution by Gender  
-<img width="725" alt="Medal Distribution by Gender" src="https://github.com/user-attachments/assets/52c67414-3fcc-472f-b271-02e836458c05" />
-
-
-# Named Entity Recognition (NER) App 💖
-
-## Project Overview
-
-The NER Streamlit App is a fun and interactive web application that allows users to perform Named Entity Recognition using both pre-trained and custom models. Built with spaCy and Streamlit, this pink-themed app lets users paste or upload text, define their own entity rules (like FOOD, CELEB, EVENT, and EMOTION), and instantly see their content analyzed and colorfully annotated.
-
-## Instructions
-
-To run the project, follow these steps:
-
-Make sure Python 3.x is installed.
-Install the dependencies:
-pip install streamlit spacy pandas
-python -m spacy download en_core_web_sm
-Run the app:
-cd NERStreamlitApp  
-streamlit run app.py
-Features
-
-💬 Paste or upload your own text
-✨ Pink-themed, emoji-enhanced UI
-🧠 Uses spaCy’s built-in NER plus custom entity rules
-🎨 Highlighted entities in text and detailed entity table view
-🧪 Sample text examples and helpful usage explanations
-🎉 Detects entities like Person, Organization, FOOD, EMOTION, and more!
-
-## References
-spaCy NER Documentation
-EntityRuler API
-Streamlit Docs
-
+**Strengths**:
+- Interactive app development with Streamlit
+- Data wrangling and visualization
+- Emotionally intelligent NLP applications
+- Structured, readable project documentation
 
 ---
 
+## 📄 Featured Projects
 
+### 🐾 Pet Finder Project  
+**A Streamlit web app that lets users filter and discover adoptable pets based on size.**
+- Built a clean UI for pet selection
+- Highlights user input logic, basic app structure, and CSV data parsing
+- Developed to explore human-centered data filtering with simple UX logic
 
+[Explore the Pet Finder Project →](https://github.com/laurenriffe/Riffe-Python-Portfolio/tree/main/basic_streamlit_app)
+
+---
+
+### 🧹 Tidy Data Project  
+**Cleaned and visualized Olympic medalist data to follow tidy data principles.**
+- Transformed wide-format data using melt
+- Built gender/sport-based distribution visuals
+- Practiced advanced data wrangling and storytelling
+- Explores equity and representation through data
+
+[Explore the Tidy Data Project →](https://github.com/laurenriffe/Riffe-Python-Portfolio/tree/main/TidyData-Project)
+
+---
+
+### 💖 NER Streamlit App  
+**An NLP-powered Streamlit app with emoji-rich UI that performs Named Entity Recognition using spaCy.**
+- Supports custom entity categories like FOOD, EMOTION, EVENT
+- Color-coded annotations and data table for full entity display
+- Designed to teach NLP in a creative, interactive way
+
+[Explore the NER App →](https://github.com/laurenriffe/Riffe-Python-Portfolio/tree/main/NERStreamlitApp)
+
+---
+
+### ✝️ Emotional Bible Verse Reader  
+**Matches user-written emotional reflections with relevant Bible verses.**
+- Uses spaCy to extract emotion-aligned keywords
+- Recommends three Bible verses per emotion category
+- Designed for Christian mental wellness and self-care
+- Merges tech, theology, and emotional literacy
+
+[Explore the Bible Verse Reader →](https://github.com/laurenriffe/Riffe-Python-Portfolio/tree/main/StreamlitAppFinal)
+
+---
+
+## 🙋‍♀️ About Me
+
+I’m Lauren — a student and builder blending finance, theology, and technology. I care about creating elegant, useful, and intentional tools that empower others. Whether it’s cleaning Olympic data or exploring scripture with AI, I approach coding with creativity and empathy.
+
+🔗 [LinkedIn](https://www.linkedin.com/in/lauren-riffe) • ✉️ lriffe@nd.edu • 🌐 [GitHub Profile](https://github.com/laurenriffe)
+
+---
+
+## 🌟 GitHub Highlights
+
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=laurenriffe&show_icons=true&theme=default)  
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=laurenriffe&layout=compact&theme=default)
+
+---

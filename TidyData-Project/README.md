@@ -1,62 +1,139 @@
-# 🏅 Welcome to the Tidy Data Olympics Project! 🏆  
+# 🏅 Tidy Data Olympics Project
 
-# 📌 Project Overview
+Welcome to the **Tidy Data Olympics Project**, a Python-based data cleaning and visualization initiative centered around medalist data from the 2008 Summer Olympics. This project showcases how tidy data principles transform messy, multi-dimensional data into an organized, analysis-ready format — empowering deeper insights through better structure.
 
-The Tidy Data Project 📊 focuses on cleaning and visualizing data from the 2008 Olympics medalists dataset 🏆. The goal is to ensure the dataset adheres to tidy data principles by structuring it properly—each variable has its own column, each observation is in a separate row, and each data type is consistent. The project also includes visualizations to highlight key insights from the cleaned data.
+---
 
-🔗 [View the Tidy Data Project Repository](<https://github.com/laurenriffe/Riffe-Python-Portfolio/tree/main/TidyData-Project>)  
+## 🧠 Purpose & Learning Outcomes
 
-# 🛠️ Instructions
-Ensure you have the following dependencies installed:
+This project demonstrates:
+- Core data tidying techniques using the `pandas` library
+- Applying Hadley Wickham's tidy data principles in practice
+- Effective reshaping, filtering, and organizing of tabular datasets
+- Constructing meaningful visualizations that highlight patterns in gender, sport, and medal distribution
 
-🐍 Python 3.x
-🏷️ pandas
-📊 matplotlib
-📉 seaborn
-You can install the required packages using:
+Designed as a teaching tool and data storytelling exercise, this project exemplifies clarity, cleanliness, and visual polish.
 
+---
+
+## 📊 Project Overview
+
+The dataset originally presents medalist data in a wide format. This project walks through the full process of converting it into a tidy format where:
+- Each variable has its own column
+- Each observation has its own row
+- Each type of observational unit forms a single table
+
+After cleaning, visualizations are generated to explore trends across sports and genders, providing insight into Olympic representation.
+
+---
+
+## 🎯 Features
+
+- 🔄 **Data Reshaping** using `melt()` and DataFrame transformations
+- 🧼 **Missing Value Handling** and column cleanup
+- 👥 **Gender/Sport Variable Extraction** from unstructured columns
+- 📊 **Matplotlib & Seaborn Visualizations** with polished aesthetics
+- 🧠 **Educational Code** with inline comments and clear logic
+
+---
+
+## 🧰 Tech Stack
+
+| Tool        | Purpose                                   |
+|-------------|-------------------------------------------|
+| `Python`    | Core scripting and data processing        |
+| `pandas`    | Data manipulation and reshaping           |
+| `matplotlib`| Plotting visualizations                   |
+| `seaborn`   | Advanced graphing and styling             |
+
+---
+
+## 📁 Project Directory Structure
+
+```
+TidyData-Project/
+├── TidyData-Project.py       # Main Python script
+├── olympics_2008.csv         # Raw dataset (before cleaning)
+└── README.md                 # This documentation file
+```
+
+---
+
+## ⚙️ How to Run This Project
+
+### 1. Clone the Repository
+```
+git clone https://github.com/laurenriffe/Riffe-Python-Portfolio.git
+cd Riffe-Python-Portfolio/TidyData-Project
+```
+
+### 2. Install Required Libraries
+```
 pip install pandas matplotlib seaborn
-🚀 Running the Notebook
-1️⃣ Clone this repository:
+```
 
-git clone <repository_url>
-2️⃣ Navigate to the project directory:
-
-cd TidyData-Project
-3️⃣ Run the Python script:
-
+### 3. Run the Python Script
+```
 python TidyData-Project.py
-📂 Dataset Description
+```
 
-# 📌 Dataset Description: The dataset contains information on medalists from the 2008 Olympics.
-
-⚡ Pre-processing Steps:
-🔄 Data reshaping using the melt() function.
-🗑️ Handling missing values by dropping them.
-🏃 Extracting relevant attributes (e.g., gender and sport) from column names.
-✨ Cleaning column values for readability.
-💾 Saving the cleaned dataset for further use.
-
-# 📚 References
-- 📜[Tidy Data Principles by Hadley Wickham](https://vita.had.co.nz/papers/tidy-data.pdf)  
-- 📝[Pandas Cheat Sheet](https://pandas.pydata.org/Pandas_Cheat_Sheet.pdf)  
-
-# 🎨 Visual Examples
-🏆 Medal Distribution by Sport
-<img width="1108" alt="Distribution by Sport" src="https://github.com/user-attachments/assets/9fc86f55-120b-475d-be73-131cd0a59076" />
-🚺🚹 Medal Distribution by Gender
-<img width="725" alt="Medal Distribution by Gender" src="https://github.com/user-attachments/assets/52c67414-3fcc-472f-b271-02e836458c05" />
-😊
+The script will load the raw data, perform cleaning and transformation, and output summary visuals.
 
 ---
 
-## ❤️ Why You'll Love This Project  
-🌟 Makes data cleaning easy and structured!  
-🏅 Perfect for sports data enthusiasts!  
-📊 Turns raw data into meaningful insights!  
+## 🧾 Dataset Details
 
-Enjoy exploring Olympic trends like never before! 🥇🎉  
+- **Source**: 2008 Summer Olympics Medalists (CSV file)
+- **Pre-Processing Includes**:
+  - Converting wide data into tidy long format using `melt()`
+  - Dropping missing or redundant entries
+  - Parsing column names to extract gender and sport information
+  - Renaming columns for consistency and clarity
+  - Saving the cleaned dataset as a `.csv` for further use
 
 ---
-💖🏅📊🎈  
 
+## 🎨 Visualization Highlights
+
+- **Medal Distribution by Sport** – Top sports based on total medals
+- **Gender Distribution** – Side-by-side comparisons of medal counts by gender
+
+> Screenshots and visual outputs can be included here.
+
+---
+
+## 📌 Requirements
+- Python 3.7+
+- pandas
+- matplotlib
+- seaborn
+
+Install using:
+```
+pip install pandas matplotlib seaborn
+```
+
+---
+
+## ❤️ Why This Project Stands Out
+- ✅ Cleanly demonstrates **tidy data concepts**
+- ✅ Turns **raw Olympic data into readable insights**
+- ✅ Ideal for students, analysts, or anyone learning data wrangling
+- ✅ Fully reproducible and documented
+
+---
+
+## 🔗 References
+- [Tidy Data by Hadley Wickham (PDF)](https://vita.had.co.nz/papers/tidy-data.pdf)
+- [Pandas Cheat Sheet (PDF)](https://pandas.pydata.org/Pandas_Cheat_Sheet.pdf)
+
+---
+
+## 👩‍💻 About the Creator
+
+Lauren Riffe is a Finance major at the University of Notre Dame with minors in Computing & Digital Technologies and Theology. Passionate about data storytelling, Lauren builds thoughtful, well-documented tools that highlight both technical proficiency and aesthetic care.
+
+📫 [lriffe@nd.edu](mailto:lriffe@nd.edu)  
+🔗 [LinkedIn](https://www.linkedin.com/in/lauren-riffe)
+
+---
