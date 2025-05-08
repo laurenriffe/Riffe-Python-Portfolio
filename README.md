@@ -13,7 +13,7 @@ Clean and restructure Olympic medalist data to explore gender and sport patterns
 ### 💖 [NER Streamlit App 💖](#-ner-streamlit-app) 
 Highlight entities like FOOD and EMOTION from user-inputted text using a spaCy-powered pink-themed NER app.
 
-### [Emotional Bible Reader ✝️](#-emotional-bible-verse-reader)
+### ✝️ [Emotional Bible Reader ✝️](#-emotional-bible-verse-reader)
 Analyze emotional reflections and return relevant Bible verses for Christian spiritual and emotional support.
 
 ---
