@@ -96,9 +96,10 @@ The script will load the raw data, perform cleaning and transformation, and outp
 ## 🎨 Visualization Highlights
 
 - **Medal Distribution by Sport** – Top sports based on total medals
-- **Gender Distribution** – Side-by-side comparisons of medal counts by gender
+<img width="677" alt="image" src="https://github.com/user-attachments/assets/6c55425b-eab1-4c3d-a49d-5ada5b1518b0" />
 
-> Screenshots and visual outputs can be included here.
+- **Gender Distribution** – Side-by-side comparisons of medal counts by gender
+<img width="413" alt="image" src="https://github.com/user-attachments/assets/61a731f9-1751-441e-99ef-8aff2f2d3ed0" />
 
 ---
 
