@@ -126,5 +126,3 @@ Lauren Riffe is a Finance major at the University of Notre Dame with minors in C
 🔗 [LinkedIn](https://www.linkedin.com/in/lauren-riffe)
 
 ---
-
-> “Even a small app can bring joy, solve problems, or spark connection — and that’s what tech should do.”
