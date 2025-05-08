@@ -4,7 +4,7 @@ Welcome to the **Emotional Bible Verse Reader**, a soulful Streamlit web app tha
 
 ---
 
-## 🧠 Purpose & Learning Outcomes
+## 🧠 Purpose & Learning Outcomes 
 
 This project is designed to:
 - Help users reflect on emotional states through expressive writing or structured self-assessment
