@@ -23,8 +23,7 @@ By using this tool, users can:
 
 ## 📊 Project Overview
 
-**The Emotional Bible Verse Reader** is an app with two main features:
-<img width="1011" alt="image" src="https://github.com/user-attachments/assets/daf31fb7-191a-44c5-ba92-559993bd91f5" />
+**Spiritual Guidance App** is an app with two main features:
 
 ### 📖 1. Verse Finder
 - Users write how they're feeling in free-form text
