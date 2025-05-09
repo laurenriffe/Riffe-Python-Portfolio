@@ -288,14 +288,29 @@ if page == "Verse Finder":
     user_input = st.text_area(" ", height=180, help="Ex: 'I'm overwhelmed with school and feeling uncertain about my future.'")  # user input is stored in user_input variable
 
     # ⚙️ Define a helper function to process user input and extract emotional keywords using spaCy NLP
-    @st.cache_data  # cache the result to avoid re-processing same input multiple times
+    # 🧠 This function uses spaCy to process user input and extract only emotion-related words
+    @st.cache_data  # ⚡ Caches the result to avoid re-running NLP on the same input
     def extract_emotions(text):
-        doc = nlp(text)  # use the spaCy language model to tokenize and process the input
-        return list(set([  # remove duplicates by turning it into a set, then back to a list
-            token.lemma_.lower()  # get the base form (lemma) of the word and make it lowercase
-            for token in doc  # go through each token in the processed text
-            if token.pos_ in ("NOUN", "ADJ", "VERB") and len(token.text) > 2  # only keep nouns, adjectives, and verbs that are longer than 2 characters
+        doc = nlp(text)  # 🧠 spaCy processes the input string and breaks it into tokens
+
+        # ✅ Step 1: Pull a clean list of all emotion names in your CSV (lowercase + stripped of whitespace)
+        emotion_list = (
+            df['Primary Emotion']          # grab the column with emotion labels
+            .dropna()                      # remove any missing values (just in case)
+            .str.lower()                   # make everything lowercase for comparison
+            .str.strip()                   # remove any leading/trailing spaces
+            .unique()                      # get unique emotion names only
+            .tolist()                      # convert from Series to plain Python list
+        )
+        # 🔍 Step 2: Look through each word the user wrote and only keep it if it’s in the emotion list
+        emotion_keywords = list(set([                        # use a set to avoid duplicates, then turn it into a list
+            token.lemma_.lower().strip()                     # use the base form (lemma) of the word, lowercase and trimmed
+            for token in doc                                 # go through each token in the user's text
+            if token.lemma_.lower().strip() in emotion_list  # only keep it if it's an actual emotion
         ]))
+
+        return emotion_keywords  # ✅ Return a list of detected emotion keywords (like: "anxious", "grateful")
+
     # 🔍 Function to find up to 3 Bible verses that match any of the extracted emotion keywords
     def find_top_verses(keywords):
         matches = df[df['Primary Emotion'].apply(lambda x: any(kw in x for kw in keywords))]  # filter the DataFrame to rows where any keyword is in the emotion column

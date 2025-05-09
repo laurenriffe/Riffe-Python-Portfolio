@@ -4,7 +4,7 @@ import pandas as pd
 # ================================
 # Step 1: Displaying a Simple DataFrame in Streamlit
 # ================================
-st.title("Pet Finder")
+st.title("Pet Finder 🐶 🐱 ")
 st.subheader("The following data shows different types of pets and allows you to sort by size in order to find your perfect pet!")
 
 # Creating a simple DataFrame manually
@@ -41,7 +41,7 @@ st.dataframe(filtered_df)
 
 # Now, instead of creating a DataFrame manually, we load a CSV file
 # This teaches students how to work with external data in Streamlit
-df = pd.read_csv("pets.csv")  # Ensure the "data" folder exists with the CSV file
+df = pd.read_csv("data/pets.csv")  # Ensure the "data" folder exists with the CSV file
 # Display the imported dataset
 st.write("Here's the dataset loaded from a CSV file:")
 st.dataframe(df)
