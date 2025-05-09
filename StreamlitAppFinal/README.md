@@ -1,10 +1,11 @@
-# ✝️ Emotional Bible Verse Reader
+# ✝️ Spiritual Guidance App
 
-Welcome to the **Emotional Bible Verse Reader**, a soulful Streamlit web app that combines natural language processing (NLP), faith-based wisdom, and visual design to help users reflect emotionally and spiritually. Whether you're overwhelmed, joyful, or unsure how you feel, this app guides you to scripture and Christian self-care practices that meet you where you are.
+Welcome to the **Spiritual Guidance App**, a soulful Streamlit web app that combines natural language processing (NLP), faith-based wisdom, and visual design to help users reflect emotionally and spiritually. Whether you're overwhelmed, joyful, or unsure how you feel, this app guides you to scripture and Christian self-care practices that meet you where you are.
+<img width="633" alt="image" src="https://github.com/user-attachments/assets/36252957-1e3f-440e-81e7-b9c20a2cdd2a" />
 
 ---
 
-## 🧠 Purpose & Learning Outcomes
+## 🧠 Purpose & Learning Outcomes 
 
 This project is designed to:
 - Help users reflect on emotional states through expressive writing or structured self-assessment
@@ -21,18 +22,26 @@ By using this tool, users can:
 
 ## 📊 Project Overview
 
-**The Emotional Bible Verse Reader** is an app with two main features:
+**Spiritual Guidance App** is an app with two main features:
 
 ### 📖 1. Verse Finder
 - Users write how they're feeling in free-form text
+<img width="1003" alt="image" src="https://github.com/user-attachments/assets/a988027c-c5f3-491a-a527-dcd8fdef6f57" />
+
 - spaCy’s NLP engine identifies emotional keywords
 - Keywords are matched to a dataset of labeled Bible verses
 - Users receive 3 relevant verses and a spiritual reflection
+<img width="1003" alt="image" src="https://github.com/user-attachments/assets/520859bb-b228-4f82-8114-3089b07420e9" />
+
 
 ### 🌈 2. Relief Activity Assessment
 - Users check statements that describe how they feel
+<img width="1003" alt="image" src="https://github.com/user-attachments/assets/4a060bce-c289-46ee-8f62-540ea4890d72" />
+
 - The system calculates their dominant emotion
 - Personalized self-care recommendations are presented based on the emotion
+<img width="1003" alt="image" src="https://github.com/user-attachments/assets/be923b67-40dc-46d6-b881-e1ce2cd38296" />
+
 
 ---
 
