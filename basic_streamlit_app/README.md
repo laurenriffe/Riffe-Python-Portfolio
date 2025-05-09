@@ -8,7 +8,7 @@ Welcome to **Project Pet Finder**, an interactive and beginner-friendly web appl
 
 This project was developed as a demonstration of how to:
 - Build an interactive web application using Streamlit
-- Read and display CSV data in a table format
+- Read and display CSV data in a table format 
 - Apply dropdown-based filtering logic in real time
 - Practice modular code organization and clean UI presentation
 

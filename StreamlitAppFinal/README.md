@@ -5,7 +5,7 @@ Welcome to the **Spiritual Guidance App**, a soulful Streamlit web app that comb
 
 ---
 
-## 🧠 Purpose & Learning Outcomes 
+## 🧠 Purpose & Learning Outcomes  
 
 This project is designed to:
 - Help users reflect on emotional states through expressive writing or structured self-assessment
