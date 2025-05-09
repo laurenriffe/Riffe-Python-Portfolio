@@ -81,12 +81,16 @@ if page == "Home":
 
     st.markdown("""
 <div style='margin-top: 40px; padding: 25px; background-color: #f5eaff; border-left: 6px solid #ab47bc; border-radius: 12px; box-shadow: 0 0 15px #e1bee7aa;'>
-    <h4 style='color: #5e35b1;'>🧠💖 Built to Care for the Whole You</h4>
+    <h4 style='color: #5e35b1;'>🧠💖 Welcome to Wellness — Emotional Reflection Meets Biblical Truth</h4>
     <p style='font-size: 16px; color: #4a235a;'>
-    This app was thoughtfully designed as more than just a digital tool — it’s a faith-centered space for self-awareness, Scripture engagement, and emotional renewal. By combining <strong>natural language processing (spaCy NLP)</strong> with a custom-tagged dataset of Bible verses, the Verse Finder helps users name what they’re feeling and ground those emotions in God’s Word. 
+    This interactive app helps you <strong>process your feelings</strong> and <strong>find hope in Scripture</strong>. Whether you want to <strong>write out your thoughts</strong> or <strong>answer simple reflection questions</strong>, Wellness uses smart <strong>language detection (spaCy NLP)</strong> and <strong>curated Bible verse matching</strong> to connect your emotions with <strong>personalized spiritual encouragement</strong>.
     </p>
     <p style='font-size: 16px; color: #4a235a;'>
-    Meanwhile, the Emotional Discovery Quiz blends <strong>self-reflection prompts</strong> with personalized <strong>Christian-based self-care suggestions</strong>, helping users nurture both their inner world and daily habits. At its core, this project supports mental, emotional, and spiritual wellness — a reminder that God cares deeply about the whole person. ✨ 
+    ✍️ <strong>Verse Finder</strong> — Write how you feel, and get matched with verses that speak directly to your heart.<br>
+    🧩 <strong>Relief Activity Assessment</strong> — Check statements that sound like you, and discover your top emotion along with a self-care activity to help you move forward.
+    </p>
+    <p style='font-size: 16px; color: #4a235a;'>
+    At its core, Wellness reminds you that <strong>your emotions matter</strong> — and that <strong>God’s Word offers peace, comfort, and direction</strong> for whatever you’re facing today.
     </p>
 </div>
 """, unsafe_allow_html=True)
