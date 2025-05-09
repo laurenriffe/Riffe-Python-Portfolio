@@ -1,8 +1,7 @@
 # ✝️ Spiritual Guidance App
-<img width="633" alt="image" src="https://github.com/user-attachments/assets/36252957-1e3f-440e-81e7-b9c20a2cdd2a" />
-
 
 Welcome to the **Spiritual Guidance App**, a soulful Streamlit web app that combines natural language processing (NLP), faith-based wisdom, and visual design to help users reflect emotionally and spiritually. Whether you're overwhelmed, joyful, or unsure how you feel, this app guides you to scripture and Christian self-care practices that meet you where you are.
+<img width="633" alt="image" src="https://github.com/user-attachments/assets/36252957-1e3f-440e-81e7-b9c20a2cdd2a" />
 
 ---
 
