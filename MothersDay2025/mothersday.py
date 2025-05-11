@@ -33,7 +33,7 @@ set_background(image_path)
 st.markdown("""
     <div style='text-align: center; padding: 2rem; background: linear-gradient(to right, #cde7f9, #92b4ec); border-radius: 25px;'>
         <h1 style='color: #003366; font-size: 3em;'>Welcome to Our Family Video Archive</h1>
-        <h3 style='color: #003366;'>Where we celebrate our memories with you, Mom.</h3>
+        <h3 style='color: #003366;'>Where we celebrate our memories and our love for you!</h3>
         <p style='font-size: 1.2em; color: #002244; max-width: 700px; margin: auto;'>
             So many laughs, adventures, and special moments - we’ve captured them here. 
             Thank you for filling our lives with unconditional love, endless encouragement, and unforgettable memories. 
