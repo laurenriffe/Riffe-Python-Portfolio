@@ -1,6 +1,7 @@
 import streamlit as st
 import pandas as pd
 import base64
+import os
 
 # ---- Page Configuration ----
 st.set_page_config(page_title="Our Family Video Archive", layout="wide")
@@ -23,7 +24,10 @@ def set_background(image_file):
         unsafe_allow_html=True
     )
 
-set_background("background.jpg")
+# Resolve path to 'photo/background.jpg'
+current_dir = os.path.dirname(__file__)
+image_path = os.path.join(current_dir, "photo", "background.jpg")
+set_background(image_path)
 
 # ---- Header Section ----
 st.markdown("""
