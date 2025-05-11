@@ -35,9 +35,9 @@ st.markdown("""
         <h1 style='color: #003366; font-size: 3em;'>Welcome to Our Family Video Archive</h1>
         <h3 style='color: #003366;'>Where we celebrate our memories with you, Mom.</h3>
         <p style='font-size: 1.2em; color: #002244; max-width: 700px; margin: auto;'>
-            Every laugh, every adventure, every special moment—we’ve captured them here for you to revisit anytime. 
+            So many laughs, adventures, and special moments - we’ve captured them here. 
             Thank you for filling our lives with unconditional love, endless encouragement, and unforgettable memories. 
-            You are the heart of this family. We love you more than words can say. Happy Mother’s Day.
+            You are the heart of this family. We love you more than words can say. Happy Mother’s Day!
         </p>
     </div>
 """, unsafe_allow_html=True)
@@ -49,23 +49,26 @@ data = {
         "Mother's Day 2022: Riptide Parody Music Video",
         "Europe Trip 2024: Belgium, Luxembourg & Netherlands",
         "Olympic National Park Trip 2024",
-        "2021 Year Recap"
+        "2021 Year Recap",
+        "Mother's Day 2025: David"
     ],
     "YouTube Link": [
         "https://youtu.be/TA0l3aF0EBM",
         "https://youtu.be/uyaPxac9fwI",
         "https://youtu.be/_EfCTXSeWCg",
         "https://youtu.be/OC5AJ5q6XBA",
-        "https://youtu.be/K9yyXh2VjSY"
+        "https://youtu.be/K9yyXh2VjSY",
+        "https://youtu.be/9ZpZzDo6TgY"
     ],
-    "Year": ["2021", "2022", "2024", "2024", "2021"],
-    "Occasion": ["Mother's Day", "Mother's Day", "Trip", "Trip", "Year Recap"],
+    "Year": ["2021", "2022", "2024", "2024", "2021", "2025"],
+    "Occasion": ["Mother's Day", "Mother's Day", "Trip", "Trip", "Year Recap", "Mother's Day"],
     "Description": [
-        "David and Lauren share what they love most about you, with a special guest appearance from the cats.",
-        "We turned 'Riptide' into a personalized music video just for you—dancing, singing, and celebrating our love for you.",
+        "We share what we love most about you, with a special guest appearance from the cats.",
+        "We turned 'Riptide' into a personalized music video just for you - dancing, singing, and celebrating our love!",
         "Relive our unforgettable European adventure through Belgium, Luxembourg, and the Netherlands.",
-        "Experience the beauty of Olympic National Park and our family moments in the great outdoors.",
-        "A heartwarming recap of all our family highlights from 2021. Memories to cherish forever."
+        "The beauty of the Olympic National Park and our family moments in the great outdoors.",
+        "A recap of all our family highlights from 2021 - So many fun memories!", 
+        "David's recollection of the past year and gratitude for all you have done for us."
     ]
 }
 df = pd.DataFrame(data)
