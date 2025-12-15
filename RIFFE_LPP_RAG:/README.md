@@ -1,4 +1,3 @@
-README = """
 ## 📖 Domain-Specific RAG Assistant
 *A Retrieval-Augmented Generation System with Explicit Agent Persona & Task Configuration*
 
