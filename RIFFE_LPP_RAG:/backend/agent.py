@@ -8,6 +8,62 @@
 from crewai import Agent, Task, Crew, LLM
 from crewai.tools import tool
 from backend.database import RAGDatabase
+# =============================================================================
+# Agent Persona + Task Policy (Rubric: persona + configuration + quality)
+# =============================================================================
+
+AGENT_PERSONA = """
+You are an advanced academic research assistant specializing in Catholic Social Teaching (CST),
+business ethics, and corporate governance.
+
+ROLE
+- Graduate-level teaching + research assistant for an ethics-in-business course.
+- Interpret CST principles and apply them to business/finance cases with conceptual rigor.
+
+GOAL
+- Provide accurate, evidence-grounded answers using retrieved passages as primary support.
+- Translate complex theology/ethics into clear, structured academic writing suitable for grading.
+
+BACKSTORY
+- Trained on Church social encyclicals and modern business ethics frameworks.
+- Experienced in synthesizing doctrine (e.g., Rerum Novarum, Quadragesimo Anno, Laudato Si’,
+  Centesimus Annus, Caritas in Veritate, Fratelli Tutti) with corporate governance concepts
+  (stakeholders, fiduciary duty, short-termism, labor ethics, capital allocation).
+
+STYLE
+- Formal, precise, and academically neutral.
+- Prefer clarity + structure over verbosity.
+- No emojis, no slang, no invented citations.
+"""
+
+TASK_POLICY = """
+NON-NEGOTIABLE RULES (Quality & Truthfulness)
+1) Base domain-specific factual claims on retrieved passages when available.
+2) If the retrieved passages are insufficient, explicitly say so and explain what is missing.
+3) Never fabricate quotations, Church document references, or source material.
+4) Separate evidence from interpretation:
+   - Evidence: what the passage(s) say
+   - Interpretation: your ethical analysis
+5) Use this structure whenever possible:
+
+RESPONSE TEMPLATE
+- Direct Answer (2–6 sentences)
+- Evidence from Sources (bullets; cite Passage numbers)
+- Ethical Analysis (connect CST principles explicitly)
+- Practical Implications (for managers/investors/boards)
+- Confidence & Limits (1–2 sentences)
+
+CITATION FORMAT
+- Cite retrieved content as: [Passage 1], [Passage 2], etc.
+- If no passages were used: state “No supporting passages were retrieved.”
+"""
+
+FALLBACK_NO_EVIDENCE = (
+    "Based on the currently retrieved passages, there is insufficient textual evidence in the "
+    "document collection to provide a well-supported answer. "
+    "To answer rigorously, I would need additional authoritative material (e.g., relevant CST documents "
+    "or course readings) added to the corpus."
+)
 
 class RAGAgent:
     def __init__(self, db: RAGDatabase, model_name: str, max_iter: int):
@@ -40,8 +96,14 @@ class RAGAgent:
                     self.last_sources.extend(results)
                     
                     # Format passages for the LLM to read
-                    passages = [row["text"] for row in results]
-                    return "\n\n---\n\n".join([f"Passage {i+1}:\n{doc}" for i, doc in enumerate(passages)])
+                    passages = []
+                    for i, row in enumerate(results, start=1):
+                        text = row.get("text", "")
+                        source = row.get("source", row.get("metadata", ""))
+                        header = f"Passage {i} (source={source}):" if source else f"Passage {i}:"
+                        passages.append(f"{header}\n{text}".strip())
+                    return "\n\n---\n\n".join(passages)
+                
                 else:
                     return "No relevant passages found."
                     
@@ -69,28 +131,50 @@ class RAGAgent:
         
 
         agent = Agent(
-            role='TOPIC Content Assistant',
-            goal='Answer questions about TOPIC using the database',
-            backstory='You are an expert who has access to a database with content about the TOPIC.',
+            role="CST & Business Ethics Research Assistant",
+            goal=(
+                "Provide academically rigorous, evidence-grounded answers about Catholic Social Teaching, "
+                "business ethics, and corporate governance using retrieved passages as primary support."
+            ),
+            backstory=AGENT_PERSONA.strip(),
             tools=[query_tool],
             llm=llm,
-            verbose=True, # Shows what the agent is doing
-            allow_delegation=False, # Does not create sub-agents
-            max_iter=self.max_iter # Limits tool calls
+            verbose=True,
+            allow_delegation=False,
+            max_iter=self.max_iter
         )
+
         
         # TO DO: Create the task
-        task = Task(description=question,
-                    agent=agent, 
-                    expected_output="A comprehensive answer based on the database content")
-        
+        task = Task(
+            description=(
+                f"{TASK_POLICY.strip()}\n\n"
+                f"USER QUESTION:\n{question}\n\n"
+                "INSTRUCTIONS:\n"
+                "- Retrieve relevant passages before answering.\n"
+                "- Follow the RESPONSE STRUCTURE.\n"
+                "- Cite passages explicitly as [Passage N].\n"
+                "- If evidence is insufficient, state this clearly.\n"
+            ),
+            agent=agent,
+            expected_output=(
+                "A structured academic response with explicit passage citations "
+                "and a brief confidence/limits statement."
+            )
+        )
         # TO DO: Create the Crew and run it
         crew = Crew(agents = [agent],
                     tasks = [task],
-                    Verbose = True,
+                    verbose = True,
                     max_rpm= 20)
         
         result = crew.kickoff()
+        if not self.last_sources:
+            return {
+                "answer": FALLBACK_NO_EVIDENCE,
+                "sources": []
+            }
+
         
         # Returns the answer and sources
         return {
