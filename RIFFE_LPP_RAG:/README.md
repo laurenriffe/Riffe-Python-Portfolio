@@ -2,14 +2,12 @@
  ## A Domain-Specific Retrieval-Augmented Generation System for Business Ethics and Finance  
    
  ## Project Description  
- This project implements a domain-specific Retrieval-Augmented Generation (RAG) assistant designed to apply Catholic Social Teaching (CST) principles to business and financial questions.  
- The system prioritizes doctrinal accuracy  academic rigor  and transparency by grounding all substantive claims in retrieved source documents rather than model intuition.  
- It was built as a capstone NLP project and intentionally mirrors how CST-based case analysis is conducted in an academic setting.  
+ - This project implements a domain-specific Retrieval-Augmented Generation (RAG) assistant designed to apply Catholic Social Teaching (CST) principles to business and financial questions. The system prioritizes doctrinal accuracy, academic rigor, and transparency by grounding all substantive claims in retrieved source documents rather than model intuition. It was built as a capstone NLP project and intentionally mirrors how CST-based case analysis is conducted in an academic setting.  
    
  ## Domain Overview & Problem Statement  
  ### Domain  
  - Catholic Social Teaching as applied to business ethics  corporate governance  and finance  
- - Focus on labor dignity  solidarity  subsidiarity  shareholder vs. stakeholder theory  executive compensation  and environmental responsibility  
+ - Focus on labor dignity  solidarity  subsidiarity  shareholder vs. stakeholder theory  executive compensation  and environmental responsibility 
    
  ### Problem  
  - Ethical analysis in business often conflates personal moral intuition with formal CST principles.  
@@ -41,7 +39,7 @@
  ## Document Collection Summary  
  The DuckDB vector database contains a curated set of approximately forty domain-specific documents  including:  
    
- - Papal social encyclicals (e.g.  Rerum Novarum  Quadragesimo Anno  Centesimus Annus  Caritas in Veritate  Laudato Si’)  
+ - Encyclicals (e.g.  Rerum Novarum  Quadragesimo Anno  Centesimus Annus  Caritas in Veritate  Laudato Si’)  
  - Scholarly work on corporate governance and business ethics  
  - Course-aligned readings and case studies (e.g.  shareholder primacy  stakeholder theory  labor ethics  hostile takeovers)  
    
@@ -86,12 +84,11 @@
    
  ### Notes  
  - Ensure the DuckDB file is committed and referenced via a valid relative path.  
- - For deployment stability  compute database paths relative to config.py.  
+ - For deployment stability compute database paths relative to config.py.  
    
  ## Streamlit Deployment  
  The application is deployed on Streamlit Cloud:  
  https://riffe-python-portfolio-xbjappotxgl2ee9wrexfxma.streamlit.app/ 
    
  ## Professional Summary  
- This project demonstrates how thoughtful agent configuration  curated document selection  and retrieval-first design can produce reliable  transparent  and academically grounded AI systems.  
- It highlights that effective RAG systems are not about larger models  but about better sources  stronger guardrails  and domain-aligned design decisions.  
+ This project demonstrates how thoughtful agent configuration  curated document selection  and retrieval-first design can produce reliable  transparent  and academically grounded AI systems. It highlights that effective RAG systems are not about larger models, but about better sources, stronger guardrails, and domain-aligned design decisions.  
