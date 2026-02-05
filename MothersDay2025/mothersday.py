@@ -70,8 +70,8 @@ data = {
         "We turned 'Riptide' into a personalized music video just for you - dancing, singing, and celebrating our love!",
         "Relive our unforgettable European adventure through Belgium, Luxembourg, and the Netherlands.",
         "The beauty of the Olympic National Park and our family moments in the great outdoors.",
-        "A recap of all our family highlights from 2021 - So many fun memories!"
-        "A recap of our trip to New York City & Washington DC"
+        "A recap of all our family highlights from 2021 - So many fun memories!",
+        "A recap of our trip to New York City & Washington DC",
     ]
 }
 df = pd.DataFrame(data)
