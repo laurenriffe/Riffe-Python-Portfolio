@@ -50,7 +50,8 @@ data = {
         "Mother's Day 2020: Riptide Parody Music Video",
         "Europe Trip 2024: Belgium, Luxembourg & Netherlands",
         "Olympic National Park Trip 2024",
-        "2021 Year Recap"
+        "2021 Year Recap",
+        "NYC & DC Family Trip 2025"
     ],
     "YouTube Link": [
         "https://youtu.be/9ZpZzDo6TgY",
@@ -58,10 +59,11 @@ data = {
         "https://youtu.be/uyaPxac9fwI",
         "https://youtu.be/_EfCTXSeWCg",
         "https://youtu.be/OC5AJ5q6XBA",
-        "https://youtu.be/K9yyXh2VjSY"
+        "https://youtu.be/K9yyXh2VjSY",
+        "https://www.youtube.com/watch?v=GovqR_QImhY"
     ],
-    "Year": ["2025", "2021", "2020", "2024", "2024", "2021"],
-    "Occasion": ["Mother's Day", "Mother's Day", "Mother's Day", "Trip", "Trip", "Year Recap"],
+    "Year": ["2025", "2021", "2020", "2024", "2024", "2021", "2025"],
+    "Occasion": ["Mother's Day", "Mother's Day", "Mother's Day", "Trip", "Trip", "Year Recap", "Birthday"],
     "Description": [
         "David's top 10 things he loves about you and his gratitude for all you do.",
         "We share what we love most about you, with a special guest appearance from the cats.",
@@ -69,6 +71,7 @@ data = {
         "Relive our unforgettable European adventure through Belgium, Luxembourg, and the Netherlands.",
         "The beauty of the Olympic National Park and our family moments in the great outdoors.",
         "A recap of all our family highlights from 2021 - So many fun memories!"
+        "A recap of our trip to New York City & Washington DC"
     ]
 }
 df = pd.DataFrame(data)
